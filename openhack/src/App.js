@@ -1,15 +1,27 @@
-import logo from './logo.svg';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
+import { CustomNavbar } from './components';
+import {Schedule, ContactUs, Rules, Sponsor, FAQ, Registration } from './pages';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { RegistrationForm } from './RegistrationForm';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-       <RegistrationForm />
-      </header>
-    </div>
+    <Router>
+      <CustomNavbar />
+      <Container>
+        <Routes>
+          <Route path="/schedule" component={Schedule} />
+          <Route path="/contact-us" component={ContactUs} />
+          <Route path="/sponsor" component={Sponsor} />
+          <Route path="/registration" component={Registration} />
+          <Route path="/faq" component={FAQ} />
+          <Route path="/rules" component={Rules} />
+        </Routes>
+      </Container>
+    </Router>
   );
-}
+};
 
 export default App;

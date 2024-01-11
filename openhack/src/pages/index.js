@@ -4,3 +4,6 @@ export { FAQ } from "./FAQ";
 export { Rules } from "./Rules";
 export { ContactUs } from "./ContactUs";
 export { Registration } from "./Registration";
+export { SignIn } from './SignIn';
+export { SignUp } from './SignUp';
+export { Home } from './Home';

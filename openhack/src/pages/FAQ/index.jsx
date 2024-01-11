@@ -3,5 +3,5 @@ import React from 'react';
 import "./FAQ.css";
 
 export const FAQ = () => {
-  return <div>FAQ Page</div>;
+  return <div className='title'>FAQ Page</div>;
 };

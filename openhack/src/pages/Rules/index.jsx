@@ -3,5 +3,5 @@ import React from 'react';
 import "./Rules.css";
 
 export const Rules = () => {
-  return <div>Rules Page</div>;
+  return <div className='title'>Rules Page</div>;
 };

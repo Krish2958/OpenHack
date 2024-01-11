@@ -12,12 +12,12 @@ const App = () => {
       <CustomNavbar />
       <Container>
         <Routes>
-          <Route path="/schedule" component={Schedule} />
-          <Route path="/contact-us" component={ContactUs} />
-          <Route path="/sponsor" component={Sponsor} />
-          <Route path="/registration" component={Registration} />
-          <Route path="/faq" component={FAQ} />
-          <Route path="/rules" component={Rules} />
+          <Route path="/schedule" element={<Schedule />} />
+          <Route path="/contact-us" element={<ContactUs />} />
+          <Route path="/sponsor" element={<Sponsor />} />
+          <Route path="/registration" element={<Registration />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/rules" element={<Rules />} />
         </Routes>
       </Container>
     </Router>

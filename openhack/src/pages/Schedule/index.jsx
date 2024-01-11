@@ -3,5 +3,5 @@ import React from 'react';
 import "./Schedule.css";
 
 export const Schedule = () => {
-  return <div>Schedule Page</div>;
+  return <div className='title'>Schedule Page</div>;
 };

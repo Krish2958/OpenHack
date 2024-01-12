@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-color: #0B0527;
+    display: inline-flex;
+    gap: 4.8rem;
+    height: 178px;
+    font-size: 24px;
+}
+
+.button {
+    width: 141px;
+    height: 57px;
+    font-size: 24px;
+}
+
+.nav-elements{
+    gap:4.8rem;
+}
+
+.image {
+    width: 336px;
+    height: 54px;
+    margin-left: 17rem;
+}
+

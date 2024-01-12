@@ -9,7 +9,7 @@ import './App.css';
 const App = () => {
   return (
     <Router>
-      <CustomNavbar />
+      <CustomNavbar className='custom-navbar' />
       <Container>
         <Routes>
           <Route path="/schedule" element={<Schedule />} />

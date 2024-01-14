@@ -1,30 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Container } from 'react-bootstrap';
-import {Schedule, ContactUs, Rules, Sponsor, FAQ, Registration } from './pages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Logo } from './assets';
 
 const App = () => {
   return (
-    <Router>
       <Container>
-        <Routes>
-          <Route path="/schedule" element={<Schedule />} />
-          <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/sponsor" element={<Sponsor />} />
-          <Route path="/registration" element={<Registration />} />
-          <Route path="/faq" element={<FAQ />} />
-          <Route path="/rules" element={<Rules />} />
-        </Routes>
         <div className='coming-soon'>
-        <img alt='OpenHack' className='coming-soon__brand-logo' src={Logo.OpenHack}></img>
+          <video autoPlay loop muted className='coming-soon__brand-logo'>
+            <source src={Logo.OpenHackWebM} type="video/webm" />
+            <source src={Logo.OpenHackMp4} type="video/mp4" />
+            Oops! The OpenHack 2024 logo video couldn't be loaded. Stay tuned for exciting updates!
+            </video>
         <h1 className='coming-soon__year'>2024</h1>
         <h3 className='coming-soon__text'>Coming Soon</h3>
         </div>
       </Container>
-    </Router>
   );
 };
 

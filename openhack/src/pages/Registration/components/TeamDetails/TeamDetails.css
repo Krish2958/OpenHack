@@ -1,0 +1,25 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Comfortaa;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    gap: 2rem;
+    @media screen and (max-width: 768px) {
+       font-size: 12px;
+       gap: 1rem;
+    }
+}
+
+.form-title {
+    font-family: Montserrat;
+    color: #8CE8E5;
+    font-weight: 700;
+    font-size: 48px;
+    @media screen and (max-width: 768px) {
+        font-size: 24px;
+    }
+}

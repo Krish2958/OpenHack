@@ -5,11 +5,13 @@ import {Schedule, ContactUs, Rules, Sponsor, FAQ, Registration } from './pages';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Logo } from './assets';
+import CustomNavbar from './components/CustomNavbar';
 
 const App = () => {
   return (
+    <Container>
     <Router>
-      <Container>
+      
         <Routes>
           <Route path="/schedule" element={<Schedule />} />
           <Route path="/contact-us" element={<ContactUs />} />
@@ -18,13 +20,8 @@ const App = () => {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/rules" element={<Rules />} />
         </Routes>
-        <div className='coming-soon'>
-        <img alt='OpenHack' className='coming-soon__brand-logo' src={Logo.OpenHack}></img>
-        <h1 className='coming-soon__year'>2024</h1>
-        <h3 className='coming-soon__text'>Coming Soon</h3>
-        </div>
-      </Container>
     </Router>
+    </Container>
   );
 };
 

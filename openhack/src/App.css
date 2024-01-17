@@ -38,6 +38,23 @@ body {
   }
 }
 
+.coming-soon__icon-container {
+  display: inline-flex;
+  gap: 2rem;
+  @media screen and (max-width:768px) {
+    gap: 1rem;
+  }
+}
+
+.coming-soon__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  @media screen and (max-width:768px) {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
 .coming-soon__text {
   color: #8CE8E5;
   font-family: Into The Void;

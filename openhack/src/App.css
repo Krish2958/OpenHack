@@ -56,3 +56,8 @@ body {
   font-family: 'Into The Void';
   src: local('Into The Void'), url(./fonts/into_the_void/Into-The-Void.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf) format('truetype');
+}

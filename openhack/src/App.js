@@ -8,7 +8,7 @@ import { ContactUs } from './pages/ContactUs';
 const App = () => {
   return (
       <Container>
-        <div className='coming-soon'>
+        {/* <div className='coming-soon'>
           <video autoPlay loop muted className='coming-soon__brand-logo'>
             <source src={Assets.OpenHackWebM} type="video/webm" />
             <source src={Assets.OpenHackMp4} type="video/mp4" />
@@ -16,7 +16,8 @@ const App = () => {
             </video>
         <h1 className='coming-soon__year'>2024</h1>
         <h3 className='coming-soon__text'>Coming Soon</h3>
-        </div>
+        </div> */}
+        <ContactUs />
       </Container>
   );
 };

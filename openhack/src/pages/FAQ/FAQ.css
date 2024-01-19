@@ -1,15 +1,28 @@
- svg {
-    width: 2rem;
-    height: 2rem;
-    position: absolute;
-    right: 0;
-    top: 5px;
-    margin-right: 1rem;
-
-}
 .faq{
   margin: 2rem;
   font-family: Montserrat;
+}
+
+.faq svg {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 1px;
+  top: 10px;
+  margin: auto;
+}
+
+.faq-title {
+  font-family: "Into The Void";
+  color: #F2F2F2;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 48px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    
+  }
 }
 
 .accordion-body {
@@ -20,54 +33,55 @@
     width: 17rem;
     
   }
-  
+
 }
+
 .accordion-button {
     width: 74rem;
     background-color: #000000;
     color: #F2F2F2;
-    @media screen and (max-width: 768px) {
-      width: 17rem;
-      
-    }
-     
-   
-  }
-  .accordion-item:not(:first-of-type) {
     border: 1px solid #F2F2F2;
     border-radius: 1px;
-    
-}
-  .accordion{
-    --bs-accordion-btn-icon: none;
-  
-  }
-  .accordion-button:not(.collapsed) {
-    background-color: #000000;
-    color: #8CE8E5;
-    
+
     @media screen and (max-width: 768px) {
       width: 17rem;
-      
     }
   }
+
+  .icon::after {
+    display: none;
+  }
+
+  .accordion-item:not(:first-of-type) {
+    border: 1px solid #F2F2F2;
+    border-radius: 1px;  
+  }
+
+  .accordion {
+    --bs-accordion-btn-icon: none;
+    --bs-accordion-btn-icon-width: 0;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #000000;
+    border: 1px solid #F2F2F2;
+    border-radius: 1px;
+    color: #8CE8E5;
+
+    @media screen and (max-width: 768px) {
+      width: 17rem; 
+    }
+  }
+
   .accordion-item{
     background-color: #000000;
     color: #8CE8E5;
     margin-bottom: 2rem;
     border: 1px solid #F2F2F2;
+    --bs-accordion-border: none
+
     @media screen and (max-width: 768px) {
       width: 17rem;
-      
     }
    
   }
-  
-  /* Add this to your existing CSS code */
-.accordion-item.active {
-  border-color: #8CE8E5;
-}
-.accordion-button:not(.collapsed)::after {
-  background-image: none;
-  transform: var(--bs-accordion-btn-icon-transform);
-}

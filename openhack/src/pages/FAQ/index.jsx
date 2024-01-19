@@ -19,10 +19,10 @@ export const FAQ = () => {
           <span className="icon ml-auto">{openToggle === eventKey ? <Icon.X /> : <Icon.Plus />}</span>
         </Accordion.Header>
       );
-      
- 
 
   return (
+  <>
+    <h1 className='faq-title'>FAQs</h1>
     <Accordion className='faq' defaultActiveKey="0">
       {faqs.map((faq) => (
        <Accordion.Item key={faq.id} eventKey={faq.id.toString()}>
@@ -33,10 +33,9 @@ export const FAQ = () => {
          {faq.answer}
        </Accordion.Body>
      </Accordion.Item>
-     
+
       ))}
     </Accordion>
+  </>
   );
 }
-
-

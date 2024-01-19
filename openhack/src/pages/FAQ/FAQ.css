@@ -41,7 +41,7 @@
     background-color: #000000;
     color: #F2F2F2;
     border: 1px solid #F2F2F2;
-    border-radius: 1px;
+    border-radius: 5px;
 
     @media screen and (max-width: 768px) {
       width: 17rem;
@@ -54,7 +54,7 @@
 
   .accordion-item:not(:first-of-type) {
     border: 1px solid #F2F2F2;
-    border-radius: 1px;  
+    border-radius: 5px;  
   }
 
   .accordion {
@@ -66,7 +66,7 @@
     background-color: #000000;
     border: 1px solid #F2F2F2;
     border-radius: 1px;
-    color: #8CE8E5;
+    color: #8CE8E5; 
 
     @media screen and (max-width: 768px) {
       width: 17rem; 

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Schedule</title>
+        <style>*{
+          margin:0;
+          padding:0;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          box-sizing: border-box;
+      }
+      
+      body{
+          background: #000;
+      }
+      
+      .timeline{
+          position: relative;
+          max-width: 1200px;
+          margin: 100px auto;
+      
+      }
+      
+      
+      .container:nth-child(odd)::before,
+      .container:nth-child(even)::before{
+          content:'';
+          background: #ffff;
+          width: 3em;
+          height: 3px;
+          position: absolute;
+          top: 50%;
+          transform:translateY(-50%);
+      }
+      
+      .container:nth-child(odd)::before{
+          left: 0;
+      }
+      
+      .container:nth-child(even)::before{
+          right: 0;
+      }
+      
+      .container:nth-child(odd) div::before,
+      .container:nth-child(even) div::before{
+          content: '';
+          background: black;
+          border: 3px solid #3cffff;
+          box-shadow: 0 0 0.5em #3cffff;
+          width: 0.8em;
+          height: 0.8em;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          border-radius: 50%;
+      }
+      
+      .container:nth-child(odd) div::before{
+          left: -4em;
+      }
+      
+      .container:nth-child(even) div::before{
+          right: -3.9em;
+      }
+      
+      
+      
+      
+      
+      .container{
+          padding: 10px 50px;
+          position: relative;
+          width: 50%;
+          animation:movedown 1s linear forwards;
+          opacity: 0;
+          border-left-color: #3cffff;
+          border-color: #3cffff;
+      }
+      
+      @keyframes movedown{
+          0%{
+              opacity: 0;
+              transform: translateY(-30px);
+      
+          }
+        
+       
+          50%{
+              opacity: 0.75;
+              transform: translateY(-10px);
+      
+          }
+          100%{
+              opacity: 1;
+              transform: translateY(0px);
+          }
+      }
+      
+      .container:nth-child(1){
+          animation-delay: 0s;
+      }
+      
+      .container:nth-child(2){
+          animation-delay: 0.5s;
+      }
+      
+      .container:nth-child(3){
+          animation-delay: 2.0s;
+      }
+      
+      .container:nth-child(4){
+          animation-delay: 3s;
+      }
+      
+      .container:nth-child(5){
+          animation-delay: 5s;
+      }
+      
+      .container:nth-child(6){
+          animation-delay: 6s;
+      }
+      
+      .text-box{
+          padding: 20px 30px;
+          box-sizing: border-box;
+          border: 2px solid #3cffff; /* Border color - blue */
+          box-shadow:  0.5em #3cffff;
+          border-radius: 10px; /* Border radius for rounded corners */
+          background: black; /* Linear gradient from black to blue */
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Box shadow for a subtle lift */
+          position: relative;
+          font-size: 15px;
+          color: #fff;
+      
+      }
+      
+      .left-container{
+          left:0;
+      }
+      
+      .right-container{
+          left: 50%;
+      }
+      
+      .timeline::after{
+          content:'';
+          position: absolute;
+          width: 3px;
+          height: 100%;
+          background: #fff;
+          top: 0;
+          left: 50%;
+          margin-left: -3px;
+          z-index: -1;
+          animation: moveline 7s linear forwards;
+      
+      }
+      
+      @keyframes moveline{
+          0%{
+              height: 10px;
+              animation-delay: 2s;
+          }
+          5%{
+              height: 20px;
+              animation-delay: 4s;
+          }
+          10%{
+              height: 90px;
+          }
+          25%{
+              height: 25%;
+          }
+          50%{
+              height: 50%;
+          }
+          100%{
+              height: 100%;
+          }
+      }
+      
+      .text-box h2{
+          font-weight: 600;
+          color: #8CE8E5;
+      }
+      
+      .text-box small{
+          display: inline-block;
+          margin-bottom: 15px;
+      }
+      
+      
+      
+      @media screen and (max-width: 600px){
+      
+          .timeline{
+              margin: 50px auto;
+          }
+      
+          .timeline::after{
+              left: 31px;
+          }
+      
+          .container{
+              width: 100%;
+              padding-left: 80px;
+              padding-right: 25px;
+          }
+      
+          .text-box small{
+              margin-bottom: 10px;
+          }
+      
+          .right-container{
+              left: 0;
+          }
+      
+          .container:nth-child(odd) div::before{
+              right: -0.8em;
+          }
+          
+          .container:nth-child(even) div::before{
+              left: -4em;
+          }
+          .container:nth-child(odd)::before{
+              
+              left:2.3em;
+          }
+          
+          .container:nth-child(even)::before{
+              left: 2.3em;
+          }
+          
+      }</style>
+    </head>
+
+
+<body>
+    <div class="timeline">
+        <div class="timeline-marker"></div>
+        <div class="container left-container">
+            <div class="text-box">
+                <h2>Pre-Registeration-Time</h2>
+                <small>9:00 AM 24/02/2024</small>
+                <p>kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab </p>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+        <div class="container right-container">
+            <div class="text-box">
+                <h2>Orientation</h2>
+                <small>9:30-11:30 AM 24/02/2024</small>
+                <p>kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab </p>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+        <div class="container left-container">
+            <div class="text-box">
+                <h2>Coding session #1</h2>
+                <small>11:30 - 2:00 24/02/2024</small>
+                <p>kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab </p>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+        <div class="container right-container">
+            <div class="text-box">
+                <h2>Registeration</h2>
+                <small>9:15 18/02/2024</small>
+                <p>kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab </p>
+                <span class="right-container-arrow"></span>
+            </div>
+        </div>
+        <div class="container left-container">
+            <div class="text-box">
+                <h2>Registeration</h2>
+                <small>9:15 18/02/2024</small>
+                <p>kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab, kuch bhi hota h iss duniya mai khaalo sab </p>
+                <span class="left-container-arrow"></span>
+            </div>
+        </div>
+    </div>
+
+    
+
+  
+
+</body>
+</html>

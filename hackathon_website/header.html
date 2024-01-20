@@ -1,0 +1,90 @@
+<style>
+    body {
+    background-color: black;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+:root {
+  --primary-color: mediumslateblue;
+}
+
+* {
+  box-sizing: border-box;
+}
+    .navbar {
+  color: #e6e6e6;
+  margin-left: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8); /* ALPHHA VALUES FOR BLURR EFFECT */
+  border-radius: 15px;
+  backdrop-filter: blur(10px); /* BLUR RADIUS  */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-logo {
+  width: 250px; /* SIZE OF THE LOGO  */
+  height: auto;
+  border-radius: 50%;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  color: #e6e6e6;
+  font-size: 22px;
+  font-weight: 400;
+  word-wrap: break-word
+}
+
+.navbar-link {
+  margin: 20px;
+  text-decoration: none;
+  color: #e6e6e6; 
+}
+
+.navbar-login {
+  display: inline-flex;
+  padding: 15px 28px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  color: #000;
+  font-size: 22px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background: var(--Water-Leaf, #8CE8E5);
+}
+</style>
+
+
+
+
+
+
+
+    <div class="navbar">
+        <img src="/images/openhack.gif" alt="Logo" class="navbar-logo"> 
+        <div class="navbar-links">
+          <a href="#faq" class="navbar-link">FAQ</a>
+          <a href="#sponsor" class="navbar-link">Sponsor</a>
+          <a href="#contact" class="navbar-link">Contact Us</a>
+          <a href="#contact" class="navbar-link">Rules</a>
+          <a href="#contact" class="navbar-link">Schedule</a>
+        </div>
+        
+          <button class="navbar-login">Login</button>
+        
+        
+      </div>
+    
+
+
+

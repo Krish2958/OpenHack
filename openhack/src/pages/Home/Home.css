@@ -1,0 +1,284 @@
+.sponsors  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21rem;
+  scroll-snap-type: y mandatory;
+
+  
+}
+
+.associate {
+  width: 40%;
+  height: auto;
+
+}
+
+
+.registrations-open-soon {
+  font-family: Comfortaa;
+  text-align: center;
+  color: #6F61C0;
+}
+.about-card {
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid var(--Water-Leaf, #8CE8E5);
+  overflow: hidden;
+  width: calc(115rem / 1.09615384615); 
+  height: 52rem;
+
+}
+
+.about-card-content {
+  margin-top: 13rem;
+  
+}
+
+.about-card-title {
+  position: relative;
+  left: 60rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-card-description {
+  text-align: justify;
+  color: #F2F2F2;
+  font-size: 1.6rem;
+  margin: 20px 0;
+  width: 36rem;
+  height: 17.46667rem;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 60rem;
+}
+
+.about-card-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about-theme {
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #6F61C0;
+  overflow: hidden;
+  width: calc(115rem / 1.09615384615); 
+  height: 52rem;
+
+}
+
+.about-theme-content {
+  margin-top: 13rem;
+}
+
+.about-theme-title {
+  position: relative;
+  left: 9rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-theme-title-1 {
+  position: relative;
+  left: 9rem;
+  color: #F2F2F2;
+  font-size: 5.625rem;
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: Montserrat;
+}
+
+.about-theme-description {
+  text-align: justify;
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  width: 85rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 9rem;
+}
+
+.about-theme-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about-prize {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 50rem 50rem;
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #8CE8E5;
+  overflow: hidden;
+  width: calc(115rem / 1.09615384615); 
+  height: 52rem;
+
+}
+
+.about-prize-content {
+  margin-top: 13rem;
+}
+
+.about-prize-title {
+  position: relative;
+  left: 9rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-prize-title-1 {
+  position: relative;
+  left: 9rem;
+  color: #F2F2F2;
+  font-size: 5.625rem;
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: Into The Void;
+}
+
+.about-prize-description {
+  text-align: justify;
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  width: 85rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 9rem;
+}
+
+.about-prize-bg-img {
+  width: 38.90206rem;
+  height: 36.59194rem;
+  margin-left: 7rem;
+  margin-top: 9rem;
+}
+
+
+.about-club {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 50rem 50rem;
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #8CE8E5;
+  overflow: hidden;
+  width: calc(115rem / 1.09615384615); 
+  height: 52rem;
+
+}
+
+.about-club-content {
+  margin-top: 13rem;
+}
+
+.about-club-title {
+  position: relative;
+  left: 9rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-club-title-1 {
+  position: relative;
+  left: 9rem;
+  color: #F2F2F2;
+  font-size: 5.625rem;
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: Into The Void;
+}
+
+.about-club-description {
+  text-align: justify;
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  width: 51rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 9rem;
+}
+
+.about-club-bg-img {
+  width: 30.125rem;
+  height: 30.125rem;
+  margin-left: 15rem;
+  margin-top: 9rem;
+}
+  
+
+
+.digital-ally {
+  width: 125%;
+}
+.title-sponsor {
+  width: 80%;
+}
+
+.ass {
+  display: inline-flex;
+  gap: 4rem;
+  width: 100%;
+}
+.line-break {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-logo {
+  width: 80%;
+  height: 331px;
+}
+
+
+
+.sponsor-title, .sponsor-associate, .sponsor-ally {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: Montserrat;
+  color: white;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  margin: 10rem;
+ 
+}

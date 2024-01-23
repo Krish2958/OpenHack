@@ -4,6 +4,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scroll-snap-type: y mandatory;
 }
 
 .coming-soon {
@@ -19,6 +20,10 @@ body {
   }
 }
 
+.name-container {
+  display: inline-flex;
+  gap: 0.5rem;
+}
 .coming-soon__brand-logo {
   width: 100%;
   height: auto;
@@ -57,12 +62,21 @@ body {
 
 .coming-soon__text {
   color: #8CE8E5;
-  font-family: Into The Void;
+  font-family: Comfortaa;
 
   @media screen and (max-width:768px) {
     font-size: 23px;
   }
 }
+.coming-soon__text-1 {
+  color: #6F61C0;
+  font-family: Comfortaa;
+
+  @media screen and (max-width:768px) {
+    font-size: 23px;
+  }
+}
+
 
 @font-face {
   font-family: 'Montserrat';
@@ -72,4 +86,9 @@ body {
 @font-face {
   font-family: 'Into The Void';
   src: local('Into The Void'), url(./fonts/into_the_void/Into-The-Void.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf) format('truetype');
 }

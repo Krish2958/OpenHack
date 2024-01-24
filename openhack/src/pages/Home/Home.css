@@ -5,8 +5,6 @@
   align-items: center;
   gap: 21rem;
   scroll-snap-type: y mandatory;
-
-  
 }
 
 .associate {
@@ -15,30 +13,28 @@
 
 }
 
-
 .registrations-open-soon {
   font-family: Comfortaa;
   text-align: center;
   color: #6F61C0;
 }
+
 .about-card {
   position: relative;
   border-radius: 2rem;
-  border: 3px solid var(--Water-Leaf, #8CE8E5);
+  border: 3px solid  #8CE8E5;
   overflow: hidden;
-  width: calc(115rem / 1.09615384615); 
-  height: 52rem;
-
+  width: 105rem; 
+  height: 47rem;
 }
 
 .about-card-content {
   margin-top: 13rem;
-  
 }
 
 .about-card-title {
   position: relative;
-  left: 60rem;
+  left: 55rem;
   color: #F2F2F2;
   font-size: 3.2rem;
   margin-top: 20px;
@@ -46,7 +42,6 @@
 }
 
 .about-card-description {
-  text-align: justify;
   color: #F2F2F2;
   font-size: 1.6rem;
   margin: 20px 0;
@@ -55,7 +50,7 @@
   flex-shrink: 0;
   font-family: Comfortaa;
   position: relative;
-  left: 60rem;
+  left: 55rem;
 }
 
 .about-card-bg-img {
@@ -73,9 +68,8 @@
   border-radius: 2rem;
   border: 3px solid #6F61C0;
   overflow: hidden;
-  width: calc(115rem / 1.09615384615); 
-  height: 52rem;
-
+  width: 105rem; 
+  height: 47rem;
 }
 
 .about-theme-content {
@@ -102,7 +96,6 @@
 }
 
 .about-theme-description {
-  text-align: justify;
   color: #F2F2F2;
   font-size: 1.5rem;
   margin: 20px 0;
@@ -132,9 +125,8 @@
   border-radius: 2rem;
   border: 3px solid #8CE8E5;
   overflow: hidden;
-  width: calc(115rem / 1.09615384615); 
-  height: 52rem;
-
+  width: 105rem; 
+  height: 47rem;
 }
 
 .about-prize-content {
@@ -161,7 +153,6 @@
 }
 
 .about-prize-description {
-  text-align: justify;
   color: #F2F2F2;
   font-size: 1.5rem;
   margin: 20px 0;
@@ -177,9 +168,8 @@
   width: 38.90206rem;
   height: 36.59194rem;
   margin-left: 7rem;
-  margin-top: 9rem;
+  margin-top: 6rem;
 }
-
 
 .about-club {
   display: grid;
@@ -189,9 +179,8 @@
   border-radius: 2rem;
   border: 3px solid #8CE8E5;
   overflow: hidden;
-  width: calc(115rem / 1.09615384615); 
-  height: 52rem;
-
+  width: 105rem; 
+  height: 47rem;
 }
 
 .about-club-content {
@@ -218,7 +207,6 @@
 }
 
 .about-club-description {
-  text-align: justify;
   color: #F2F2F2;
   font-size: 1.5rem;
   margin: 20px 0;
@@ -234,10 +222,8 @@
   width: 30.125rem;
   height: 30.125rem;
   margin-left: 15rem;
-  margin-top: 9rem;
+  margin-top: 7rem;
 }
-  
-
 
 .digital-ally {
   width: 125%;
@@ -260,8 +246,6 @@
   width: 80%;
   height: 331px;
 }
-
-
 
 .sponsor-title, .sponsor-associate, .sponsor-ally {
   display: flex;

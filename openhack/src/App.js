@@ -2,9 +2,9 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import { Assets, Logo } from './assets';
+import { Assets } from './assets';
 import * as Icon from 'react-bootstrap-icons';
-import Home from './pages/Home';
+
 
 const App = () => {
   return (

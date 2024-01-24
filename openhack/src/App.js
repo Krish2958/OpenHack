@@ -30,7 +30,7 @@ const App = () => {
           </a>
         </span>
         </div>
-        <Home />
+        {/* <Home /> */}
       </Container>
   );
 };

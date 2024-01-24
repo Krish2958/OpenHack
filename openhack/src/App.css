@@ -23,6 +23,12 @@ body {
 .name-container {
   display: inline-flex;
   gap: 0.5rem;
+  @media screen and (max-width:768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .coming-soon__brand-logo {
   width: 100%;
@@ -65,7 +71,7 @@ body {
   font-family: Comfortaa;
 
   @media screen and (max-width:768px) {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 .coming-soon__text-1 {
@@ -73,7 +79,7 @@ body {
   font-family: Comfortaa;
 
   @media screen and (max-width:768px) {
-    font-size: 23px;
+    font-size: 20px;
   }
 }
 

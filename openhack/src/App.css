@@ -5,7 +5,6 @@ body {
   justify-content: center;
   align-items: center;
   scroll-snap-type: y mandatory;
-}
 
 @font-face {
   font-family: 'Montserrat';

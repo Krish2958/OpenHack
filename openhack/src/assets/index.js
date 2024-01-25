@@ -10,7 +10,6 @@ import Prize from './Prize.png';
 import VersatilePrime from './VersatilePrime.png';
 import TrickyLab from './TrickyLab.png';
 
-
 export const Assets = {
     OpenHackWebM: OpenHackWebM,
     OpenHackMp4: OpenHackMp4,

@@ -5,12 +5,20 @@
   align-items: center;
   gap: 21rem;
   scroll-snap-type: y mandatory;
+
+  @media screen and (max-width: 768px) {
+    gap: 4rem;
+  }
 }
 
 .associate {
   width: 40%;
   height: auto;
 
+  @media screen and (max-width: 768px) {
+    width: 40%;
+  height: auto;
+  }
 }
 
 .registrations-open-soon {
@@ -24,21 +32,37 @@
   border-radius: 2rem;
   border: 3px solid  #8CE8E5;
   overflow: hidden;
-  width: 105rem; 
-  height: 47rem;
+  width: 82rem; 
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 24rem;
+    border: 1px solid  #8CE8E5;
+  }
+  
 }
 
 .about-card-content {
   margin-top: 13rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 7rem;
+  }
 }
 
 .about-card-title {
   position: relative;
-  left: 55rem;
+  left: 40rem;
   color: #F2F2F2;
   font-size: 3.2rem;
   margin-top: 20px;
   font-family: Into The Void;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    left: 2rem;
+  }
 }
 
 .about-card-description {
@@ -50,7 +74,14 @@
   flex-shrink: 0;
   font-family: Comfortaa;
   position: relative;
-  left: 55rem;
+  left: 40rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 20rem;
+  }
 }
 
 .about-card-bg-img {
@@ -68,43 +99,74 @@
   border-radius: 2rem;
   border: 3px solid #6F61C0;
   overflow: hidden;
-  width: 105rem; 
-  height: 47rem;
+  width: 82rem; 
+  height: 37rem;
+
+  @media screen and (max-width: 768px) {
+    width: 24rem;
+    border: 1px solid  #6F61C0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
 }
 
 .about-theme-content {
-  margin-top: 13rem;
+  margin-top: 10rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 4rem;
+  }
 }
 
 .about-theme-title {
   position: relative;
-  left: 9rem;
+  left: 6rem;
   color: #F2F2F2;
   font-size: 3.2rem;
-  margin-top: 20px;
+  margin-top: 10px;
   font-family: Into The Void;
+  @media screen and (max-width: 768px) {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    left: 2rem;
+  }
 }
 
 .about-theme-title-1 {
   position: relative;
-  left: 9rem;
+  left: 6rem;
   color: #F2F2F2;
-  font-size: 5.625rem;
+  font-size: 4.7rem;
   margin-top: 20px;
   font-weight: 700;
   font-family: Montserrat;
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    left: 2rem;
+  }
 }
 
 .about-theme-description {
   color: #F2F2F2;
   font-size: 1.5rem;
   margin: 20px 0;
-  width: 85rem;
+  width: 74rem;
   height: auto;
   flex-shrink: 0;
   font-family: Comfortaa;
   position: relative;
-  left: 9rem;
+  left: 6rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 20rem;
+  }
 }
 
 .about-theme-bg-img {
@@ -125,12 +187,25 @@
   border-radius: 2rem;
   border: 3px solid #8CE8E5;
   overflow: hidden;
-  width: 105rem; 
-  height: 47rem;
+  width: 82rem; 
+  height: auto;
+  @media screen and (max-width: 768px) {
+    width: 24rem;
+    border: 1px solid  #8CE8E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
 }
 
 .about-prize-content {
-  margin-top: 13rem;
+  margin-top: 10rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 4rem;
+  }
 }
 
 .about-prize-title {
@@ -140,6 +215,13 @@
   font-size: 3.2rem;
   margin-top: 20px;
   font-family: Into The Void;
+  @media screen and (max-width: 768px) {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    left: 2rem;
+  }
+
+  
 }
 
 .about-prize-title-1 {
@@ -150,6 +232,12 @@
   margin-top: 20px;
   font-weight: 700;
   font-family: Into The Void;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    left: 2rem;
+  }
 }
 
 .about-prize-description {
@@ -162,13 +250,28 @@
   font-family: Comfortaa;
   position: relative;
   left: 9rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 20rem;
+  }
+
 }
 
 .about-prize-bg-img {
-  width: 38.90206rem;
-  height: 36.59194rem;
-  margin-left: 7rem;
+  width: 27.90206rem;
+  height: 25.59194rem;
+  margin-left: 1rem;
   margin-top: 6rem;
+
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    width: 75%;
+    height: 50%;
+  }
 }
 
 .about-club {
@@ -179,72 +282,132 @@
   border-radius: 2rem;
   border: 3px solid #8CE8E5;
   overflow: hidden;
-  width: 105rem; 
-  height: 47rem;
+  width: 82rem; 
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 24rem;
+    border: 1px solid  #6F61C0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
 }
 
 .about-club-content {
-  margin-top: 13rem;
+  margin-top: 3rem;
 }
 
 .about-club-title {
   position: relative;
-  left: 9rem;
+  left: 6rem;
   color: #F2F2F2;
   font-size: 3.2rem;
   margin-top: 20px;
   font-family: Into The Void;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.6rem;
+    left: 2rem;
+  }
 }
 
 .about-club-title-1 {
   position: relative;
-  left: 9rem;
+  left: 6rem;
   color: #F2F2F2;
   font-size: 5.625rem;
   margin-top: 20px;
   font-weight: 700;
   font-family: Into The Void;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    left: 2rem;
+  }
 }
 
 .about-club-description {
   color: #F2F2F2;
   font-size: 1.5rem;
   margin: 20px 0;
-  width: 51rem;
+  width: 43rem;
   height: auto;
   flex-shrink: 0;
   font-family: Comfortaa;
   position: relative;
-  left: 9rem;
+  left: 6rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 20rem;
+  }
 }
 
 .about-club-bg-img {
-  width: 30.125rem;
-  height: 30.125rem;
-  margin-left: 15rem;
-  margin-top: 7rem;
+  width: 27.125rem;
+  height: 24.125rem;
+  margin-top: 2rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    width: 75%;
+    height: 50%;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
 }
 
 .digital-ally {
   width: 125%;
+  @media screen and (max-width: 768px) {
+    width: 30%;
+  }
 }
 .title-sponsor {
   width: 80%;
+  @media screen and (max-width: 768px) {
+    width: 60%;
+  }
+ 
 }
 
 .ass {
   display: inline-flex;
   gap: 4rem;
   width: 100%;
-}
-.line-break {
-  display: flex;
-  flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
 }
 
-.brand-logo {
-  width: 80%;
-  height: 331px;
+.title-heading {
+  @media screen and (max-width: 768px){
+    font-size: 1rem;
+  }
+}
+
+.associate-heading {
+  @media screen and (max-width: 768px){
+    font-size: 0.9rem;
+  }
+}
+
+.digital-heading {
+  @media screen and (max-width: 768px){
+    font-size: 0.7rem;
+  }
 }
 
 .sponsor-title, .sponsor-associate, .sponsor-ally {
@@ -264,5 +427,18 @@
   align-items: center;
   gap: 15rem;
   margin: 10rem;
- 
+  @media screen and (max-width: 768px) {
+    gap: 5rem;
+    margin: 1rem;
+  }
+
+}
+
+.brand-logo {
+  width: 100%;
+  height: auto;
+
+  @media screen and (max-width:768px) {
+    width: 90%;
+  }
 }

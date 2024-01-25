@@ -1,34 +1,48 @@
 import React from 'react';
 import { Assets } from '../../assets';
+import * as Icon from 'react-bootstrap-icons';
 import './Home.css';
 
 const Home = () => {
   return (
     <div className='home'>
-    {/* <video autoPlay loop muted className='brand-logo'>
+    <div className='coming-soon'>
+          <video autoPlay loop muted className='coming-soon__brand-logo'>
             <source src={Assets.OpenHackWebM} type="video/webm" />
             <source src={Assets.OpenHackMp4} type="video/mp4" />
             Oops! The OpenHack 2024 logo video couldn't be loaded. Stay tuned for exciting updates!
             </video>
-
-            <h1 className='registrations-open-soon'>Registrations Open Soon. Stay Tuned</h1> */}
-          
-            <div className='sponsors'>
+        <h1 className='coming-soon__year'>24-25 FEB, 2024</h1>
+        <div className='name-container'><h3 className='coming-soon__text'>Registrations Open Soon.</h3>
+        <h3 className='coming-soon__text-1'>Stay Tuned.</h3></div>
+        <span className='coming-soon__icon-container'>
+          <a href="tel:+917568379160" >
+            <Icon.Telephone className='coming-soon__icon' color='#8CE8E5' />
+          </a>
+          <a href="mailto:info_openhack@mlvti.ac.in" target="_blank" rel="noopener noreferrer">
+            <Icon.EnvelopeOpen className='coming-soon__icon' color='#8CE8E5' />
+          </a>
+          <a href="https://www.instagram.com/openhack2024/" target="_blank" rel="noopener noreferrer">
+            <Icon.Instagram className='coming-soon__icon' color='#8CE8E5' />
+          </a>
+        </span>
+        </div>
+          <div className='sponsors'>
               
               <div className='sponsor-title'>
-                <h3>Powered By</h3>
+                <h3 className='title-heading'>Powered By</h3>
                 <img className='title-sponsor' src={Assets.ReadyBytes} alt='Ready Bytes' />
               </div>
 
               <div className='sponsor-associate'>
-                <h3>In Association with</h3>
+              <h3 className='associate-heading'>In Association with</h3>
                 <div className='ass'>
                  <img className='associate' src={Assets.Take2Technology} alt='Take 2 Technology' />
                  <img className='associate' src={Assets.VersatilePrime} alt='Versatile Prime' />
                 </div>
               </div>
               <div className='sponsor-ally'>
-                <h3>Digital Ally</h3>
+              <h3 className='digital-heading'>Digital Ally</h3>
                 <img className='digital-ally' src={Assets.TrickyLab} alt='Tricky' /></div>
             </div>
         <div className='about-card'>

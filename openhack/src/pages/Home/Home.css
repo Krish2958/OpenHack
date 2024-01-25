@@ -11,6 +11,82 @@
   }
 }
 
+.coming-soon {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  @media screen and (max-width:768px) {
+    gap: 0.5rem;
+  }
+}
+
+.name-container {
+  display: inline-flex;
+  gap: 0.5rem;
+  @media screen and (max-width:768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.coming-soon__brand-logo {
+  width: 150%;
+  height: auto;
+
+  @media screen and (max-width:768px) {
+    width: 90%;
+  }
+}
+
+.coming-soon__year {
+  color: #F2F2F2;
+  font-family: montserrat;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width:768px) {
+    font-size: 28px;
+  }
+}
+
+.coming-soon__icon-container {
+  display: inline-flex;
+  gap: 2rem;
+  @media screen and (max-width:768px) {
+    gap: 1rem;
+  }
+}
+
+.coming-soon__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  @media screen and (max-width:768px) {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+.coming-soon__text {
+  color: #8CE8E5;
+  font-family: Comfortaa;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+.coming-soon__text-1 {
+  color: #6F61C0;
+  font-family: Comfortaa;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+
 .associate {
   width: 40%;
   height: auto;
@@ -128,6 +204,7 @@
   font-size: 3.2rem;
   margin-top: 10px;
   font-family: Into The Void;
+
   @media screen and (max-width: 768px) {
     margin-top: 30px;
     font-size: 1.6rem;
@@ -143,6 +220,7 @@
   margin-top: 20px;
   font-weight: 700;
   font-family: Montserrat;
+
   @media screen and (max-width: 768px) {
     margin-top: 10px;
     font-size: 1.8rem;
@@ -189,6 +267,7 @@
   overflow: hidden;
   width: 82rem; 
   height: auto;
+
   @media screen and (max-width: 768px) {
     width: 24rem;
     border: 1px solid  #8CE8E5;

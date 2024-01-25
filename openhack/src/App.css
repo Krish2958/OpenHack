@@ -5,7 +5,7 @@ body {
   justify-content: center;
   align-items: center;
   scroll-snap-type: y mandatory;
-
+}
 @font-face {
   font-family: 'Montserrat';
   src: local('Montserrat'), url(./fonts/Montserrat/Montserrat-VariableFont_wght.ttf) format('truetype');

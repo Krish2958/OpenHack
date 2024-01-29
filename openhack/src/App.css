@@ -8,7 +8,7 @@ body {
 }
 
 .coming-soon {
-  height: 100vh;
+  height: 200vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

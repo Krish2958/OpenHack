@@ -4,10 +4,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Assets } from './assets';
 import * as Icon from 'react-bootstrap-icons';
+import { CustomNavbar } from './components/CustomNavbar';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 const App = () => {
   return (
       <Container>
+        <Router>
+        <CustomNavbar />
+        </Router>
+
         <div className='coming-soon'>
           <video autoPlay loop muted className='coming-soon__brand-logo'>
             <source src={Assets.OpenHackWebM} type="video/webm" />

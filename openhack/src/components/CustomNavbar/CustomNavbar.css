@@ -1,0 +1,52 @@
+.custom-navbar {
+    color: #e6e6e6;
+    margin-left: auto;
+    padding: 15px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.8); /* ALPHHA VALUES FOR BLURR EFFECT */
+    border-radius: 15px;
+    backdrop-filter: blur(10px); /* BLUR RADIUS  */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    @media screen and (max-width:768px ){
+      flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+  }
+  
+
+  .bg-dark {
+    --bs-bg-opacity: none;
+  }
+  .brand-logo-nav {
+    width: 250px; /* SIZE OF THE LOGO  */
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .nav-itmes {
+    width: 100%;
+    color: #e6e6e6;
+    font-size: 22px;
+    font-weight: 400;
+  }
+  .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    gap: 2rem;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #F2F2F2;
+    font-family: Comfortaa;
+
+    @media screen and (max-width:768px ){
+      flex-direction: column;
+      gap: 0;
+      font-size: normal;
+
+    }
+}

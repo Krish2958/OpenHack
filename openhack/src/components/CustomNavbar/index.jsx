@@ -18,17 +18,8 @@ export const CustomNavbar = () => {
           <LinkContainer to="/contact-us">
             <Nav.Link>Contact Us</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/sponsor">
-            <Nav.Link>Sponsor</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/registration">
-            <Nav.Link>Registration</Nav.Link>
-          </LinkContainer>
           <LinkContainer to="/faq">
             <Nav.Link>FAQ</Nav.Link>
-          </LinkContainer>
-          <LinkContainer to="/rules">
-            <Nav.Link>Rules</Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

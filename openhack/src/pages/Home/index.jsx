@@ -3,7 +3,7 @@ import { Assets } from '../../assets';
 import * as Icon from 'react-bootstrap-icons';
 import './Home.css';
 
-const Home = () => {
+export const Home = () => {
   return (
     <div className='home'>
     <div className='coming-soon'>
@@ -80,5 +80,3 @@ Hackathons, project marathons, and interesting events are among the objectives o
     </div>
   );
 };
-
-export default Home;

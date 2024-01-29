@@ -9,6 +9,21 @@ body {
   overflow-x: hidden;
   width: 100%;
   height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow-y: scroll;
+
+  @media screen and (max-width:768px) {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none
+
+  }
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 .coming-soon {

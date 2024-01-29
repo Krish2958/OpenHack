@@ -5,10 +5,14 @@ body {
   justify-content: center;
   align-items: center;
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
 }
 
 .coming-soon {
-  height: 200vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

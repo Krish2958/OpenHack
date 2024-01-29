@@ -114,3 +114,7 @@ body::-webkit-scrollbar {
   font-family: 'Comfortaa';
   src: local('Comfortaa'), url(./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Comfortaa';
+  src: local('Comfortaa'), url(./fonts/Comfortaa/Comfortaa-VariableFont_wght.ttf) format('truetype');
+}

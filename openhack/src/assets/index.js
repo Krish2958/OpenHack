@@ -10,7 +10,7 @@ import Laptop from './Laptop_BG.webp';
 import Prize from './Prize.png';
 import VersatilePrime from './VersatilePrime.png';
 import TrickyLab from './TrickyLab.png';
-
+import ContactPeople from './ContactPeople.svg';
 
 export const Assets = {
     OpenHackWebM: OpenHackWebM,
@@ -25,4 +25,5 @@ export const Assets = {
     VersatilePrime: VersatilePrime,
     TrickyLab: TrickyLab,
     OpenHack: OpenHack,
+    ContactPeople: ContactPeople,
 }

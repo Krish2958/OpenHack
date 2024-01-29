@@ -18,7 +18,6 @@
     }
 
   }
-  
 
   .bg-dark {
     --bs-bg-opacity: none;
@@ -38,14 +37,16 @@
     flex-direction: row;
     gap: 2rem;
     width: 100%;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #F2F2F2;
     font-family: Comfortaa;
+    margin-left: 0.5rem;
 
     @media screen and (max-width:768px ){
       flex-direction: column;
       gap: 0;
       font-size: normal;
+      margin-left:0;
 
     }
 }

@@ -1,4 +1,4 @@
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, Button } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "./CustomNavbar.css";
 import { Assets } from "../../assets";
@@ -20,6 +20,12 @@ export const CustomNavbar = () => {
           </LinkContainer>
           <LinkContainer to="/faq">
             <Nav.Link>FAQ</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/rules">
+            <Nav.Link>Rules</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/registration">
+            <Button className='nav-button' variant="primary"  >Registration</Button>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

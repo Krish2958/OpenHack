@@ -1,8 +1,9 @@
 .custom-navbar {
     color: #e6e6e6;
-    margin-left: auto;
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding: 15px;
-    width: 50vw;
+    width: 100%;
     background-color: rgba(0, 0, 0, 0.8); /* ALPHHA VALUES FOR BLURR EFFECT */
     border-radius: 15px;
     backdrop-filter: blur(10px); /* BLUR RADIUS  */
@@ -18,6 +19,28 @@
     }
 
   }
+
+  .btn {
+    --bs-btn-border-color: #8ce8e5;
+    --bs-btn-hover-border-color: #8ce8e5;
+  }
+.nav-button {
+  font-size: 1.4rem;
+  background-color: #8ce8e5;
+  color: #000000;
+
+}
+
+.nav-button:hover {
+  font-size: 1.4rem;
+  background-color: #000000;
+}
+
+.btn.disabled {
+  font-size: 1.4rem;
+  background-color: #8ce8e5;
+  color: #000000;
+}
 
   .bg-dark {
     --bs-bg-opacity: none;

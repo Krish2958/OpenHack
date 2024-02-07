@@ -13,8 +13,9 @@
 
     @media screen and (max-width:768px ){
       flex-direction: row-reverse;
-      justify-content: center;
+       justify-content: center;
       align-items: center;
+      margin: 0;
       
     }
 
@@ -29,6 +30,13 @@
   background-color: #8ce8e5;
   color: #000000;
 
+  @media screen and (max-width:768px ){
+    width: 80%;
+    text-align: center;
+    
+  }
+ 
+
 }
 
 .nav-button:hover {
@@ -40,6 +48,7 @@
   font-size: 1.4rem;
   background-color: #8ce8e5;
   color: #000000;
+  border-color: #000000;
 }
 
   .bg-dark {
@@ -69,7 +78,7 @@
       flex-direction: column;
       gap: 0;
       font-size: normal;
-      margin-left:0;
+      margin-left:2.5rem;
 
     }
 }

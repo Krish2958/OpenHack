@@ -29,21 +29,30 @@ export const Home = () => {
         </div>
           <div className='sponsors'>
               
-              <div className='sponsor-title'>
+              <a href="https://readybytes.in/" className='sponsor-title' target="_blank" rel="noopener noreferrer">
                 <h3 className='title-heading'>Powered By</h3>
                 <img className='title-sponsor' src={Assets.ReadyBytes} alt='Ready Bytes' />
-              </div>
+              </a>
 
               <div className='sponsor-associate'>
               <h3 className='associate-heading'>In Association with</h3>
                 <div className='ass'>
-                 <img className='associate' src={Assets.Take2Technology} alt='Take 2 Technology' />
-                 <img className='associate' src={Assets.VersatilePrime} alt='Versatile Prime' />
-                </div>
+                  
+                    <a className='sp-c' href="https://www.take2technologies.com/" target="_blank" rel="noopener noreferrer">
+                        <img className='associate' src={Assets.Take2Technology} alt='Take 2 Technology' />
+                    </a>
+                  
+                    <a className='sp-c' href="https://www.versatileitsolution.com/" target="_blank" rel="noopener noreferrer">
+                        <img className='associate' src={Assets.VersatilePrime} alt='Versatile Prime' />
+                    </a>
+                                 </div>
               </div>
               <div className='sponsor-ally'>
               <h3 className='digital-heading'>Digital Ally</h3>
-                <img className='digital-ally' src={Assets.TrickyLab} alt='Tricky' /></div>
+              <a  href="https://trickylab.com/" className='sponsor-title' target="_blank" rel="noopener noreferrer">
+                <img className='digital-ally' src={Assets.TrickyLab} alt='Tricky' />
+                </a>
+                </div>
             </div>
         <div className='about-card'>
           <div className='about-card-content'>

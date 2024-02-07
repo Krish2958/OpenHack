@@ -25,7 +25,7 @@ export const CustomNavbar = () => {
             <Nav.Link>Rules</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/registration">
-            <Button className='nav-button' variant="primary"  >Registration</Button>
+            <Button className='nav-button' variant="primary" disabled='True' >Registration</Button>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

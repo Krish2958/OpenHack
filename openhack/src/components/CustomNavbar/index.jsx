@@ -15,14 +15,17 @@ export const CustomNavbar = () => {
           <LinkContainer to="/schedule">
             <Nav.Link>Schedule</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/contact-us">
-            <Nav.Link>Contact Us</Nav.Link>
+          <LinkContainer to="/sponsors">
+            <Nav.Link>Sponsors</Nav.Link>
+          </LinkContainer>
+          <LinkContainer to="/rules">
+            <Nav.Link>Rules</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/faq">
             <Nav.Link>FAQ</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/rules">
-            <Nav.Link>Rules</Nav.Link>
+          <LinkContainer to="/contact-us">
+            <Nav.Link>Contact Us</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/registration">
             <Button className='nav-button' variant="primary" disabled='True' >Registration</Button>

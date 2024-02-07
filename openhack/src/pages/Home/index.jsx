@@ -38,7 +38,7 @@ export const Home = () => {
               <h3 className='associate-heading'>In Association with</h3>
                 <div className='ass'>
                   
-                    <a className='sp-c' href="https://www.take2technologies.com/" target="_blank" rel="noopener noreferrer">
+                    <a className='sp-c' href="https://www.taketwotechnologies.com/" target="_blank" rel="noopener noreferrer">
                         <img className='associate' src={Assets.Take2Technology} alt='Take 2 Technology' />
                     </a>
                   

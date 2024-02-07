@@ -25,7 +25,10 @@
 }
 
 .sp-c {
-  display: flex;
+  @media screen and (max-width:768px) {
+    display: flex;
+    justify-content: center;
+  }
 }
 .name-container {
   display: inline-flex;

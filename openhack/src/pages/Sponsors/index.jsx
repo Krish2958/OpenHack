@@ -8,10 +8,10 @@ import { Assets } from '../../assets';
 export const Sponsors = () => {
 
   return (
-  <>
+  <div className='sponsors-page'>
     <h1 className='sponsors-title'>Sponsors</h1>
     <div className='sponsors-card'>
-          <div className='sponsors-card-content'>
+          <div className='sponsors-card-content title_sponsor'>
           <h1 className='sponsors-card-title'>Title Sponsor</h1>
           <p className="sponsors-card-description">Ready Bytes Software Labs Pvt. Ltd. is a Bhilwara based Software company founded by Mr. Shyam Sundar Verma in 2009. Ready Bytes specializes in creating software solutions.</p>
           <span className='sponsors__icon-container'>
@@ -40,7 +40,7 @@ export const Sponsors = () => {
           </div>
           <img className='sponsors-card-bg-img' src={Assets.ReadyBytes} alt="sponsors" />        
         </div>
-        <div className='sponsors-card'>
+        <div className='sponsors-card associate_sponsor'>
           
           <img className='sponsors-card-bg-img' src={Assets.Take2Technology} alt="sponsors" />       
           <div className='sponsors-card-content'>
@@ -68,7 +68,7 @@ export const Sponsors = () => {
         </span>
           </div> 
         </div>
-        <div className='sponsors-card'>
+        <div className='sponsors-card associate_sponsor'>
           <div className='sponsors-card-content'>
           <h1 className='sponsors-card-title'>Associate Sponsor</h1>
           <p className="sponsors-card-description">Versatile is not just an IT solution provider, it is professional managed company with qualified
@@ -105,7 +105,7 @@ team. Versatile strength is its team who is capable to face any type of challeng
           </div>
           <img className='sponsors-card-bg-img' src={Assets.VersatilePrime} alt="sponsors" />        
         </div>
-        <div className='sponsors-card'>
+        <div className='sponsors-card digital_ally'>
           
           <img className='sponsors-card-bg-img' src={Assets.TrickyLab} alt="sponsors" />       
           <div className='sponsors-card-content'>
@@ -137,6 +137,6 @@ team. Versatile strength is its team who is capable to face any type of challeng
           </div> 
         </div>
 
-  </>
+  </div>
   );
 }

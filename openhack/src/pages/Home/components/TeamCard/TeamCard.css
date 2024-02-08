@@ -1,26 +1,55 @@
-/* Importing fonts from Google */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-/* Reseting */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+.container .row .col-lg-4 {
+    display: grid;
 }
 
-body {
-    min-height: 100vh;
-    background: linear-gradient(to bottom, #000428, #004683);
+.team-row {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 1rem;
+    position: relative;
+    left: 3.2rem;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 300px;
+        left: 2rem;
+        gap: 1rem;
+      }
+}
+
+.team-container {
+    position: relative;
+    border-radius: 2rem;
+    border: 3px solid  #8CE8E5;
+    overflow: hidden;
+    width: 82rem; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+  
+    @media screen and (max-width: 768px) {
+      width: 23rem;
+      border: 1px solid  #8CE8E5;
+    }
+}
+.team-title {
+    position: relative;
+    font-family: Into The Void;
+    font-size: 3rem;
+    margin: 4rem 0;
+    color: #F2F2F2;
+    left: 3.2rem;
+    @media screen and (max-width: 768px) {
+        left: 2rem;
+        font-size: 1.6rem;
+      }
 }
 
 .container {
     margin-top: 100px;
-}
-
-.container .row .col-lg-4 {
-    display: flex;
-    justify-content: center;
 }
 
 .card {
@@ -29,23 +58,40 @@ body {
     margin: 0 !important;
     border-radius: 20px;
     overflow: hidden;
-    max-width: 280px;
-    max-height: 340px;
+    max-width: 291px;
+    max-height: 387px;
+    min-width: 253px;
+    min-height: 334px;
     cursor: pointer;
     border: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-
+    @media screen and (max-width: 768px) {
+        max-width: 146px;
+    max-height: 194px;
+    min-width: 127px;
+    min-height: 167px;
+      }
 }
 
 .card .card-image {
     width: 100%;
     max-height: 340px;
+    @media screen and (max-width: 768px) {
+        max-height: 170px;
+        }
 }
 
 .card .card-image img {
-    width: 100%;
-    max-height: 340px;
+    max-width: 291px;
+    max-height: 387px;
     object-fit: cover;
+
+
+    @media screen and (max-width: 768px) {
+    max-width: 146px;
+    max-height: 194px;
+    }
+    
 }
 
 .card .card-content {
@@ -59,12 +105,16 @@ body {
     transition: bottom .4s ease-in;
     box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
 }
 
 .card:hover .card-content {
     bottom: 0px;
 }
 
+.card:hover .card-content {
+    bottom: 0px;
+}
 .card:hover .card-content h4,
 .card:hover .card-content h5 {
     transform: translateY(10px);
@@ -86,9 +136,19 @@ body {
 
 .card .card-content h5 {
     transition: 0.5s;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 0.8rem;
     letter-spacing: 2px;
+    font-family: Comfortaa;
+    color: #000000;
+}
+
+.card .card-content h4 {
+    transition: 0.5s;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: Into The Void;
+    color: #000000;
 }
 
 .card .card-content .social-icons {

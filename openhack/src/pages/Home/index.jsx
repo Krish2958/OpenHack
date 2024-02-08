@@ -2,6 +2,7 @@ import React from 'react';
 import { Assets } from '../../assets';
 import * as Icon from 'react-bootstrap-icons';
 import './Home.css';
+import Team from './components/TeamCard';
 
 export const Home = () => {
   return (
@@ -86,6 +87,7 @@ Hackathons, project marathons, and interesting events are among the objectives o
           </div>
           <img className='about-club-bg-img' src={Assets.TechBizz} alt="about" />        
         </div>
+        <Team />
     </div>
   );
 };

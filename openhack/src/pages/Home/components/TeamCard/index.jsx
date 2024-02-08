@@ -15,17 +15,17 @@ const TeamMemberCard = ({ name, role, imageUrl }) => {
 
           <ul className="social-icons d-flex justify-content-center">
             <li style={{ '--i': 1 }}>
-              <a href="#">
+              <a href="/">
                 <Envelope />
               </a>
             </li>
             <li style={{ '--i': 2 }}>
-              <a href="#">
+              <a href="/">
                 <Linkedin />
               </a>
             </li>
             <li style={{ '--i': 3 }}>
-              <a href="#">
+              <a href="/">
                 <Instagram />
               </a>
             </li>
@@ -46,6 +46,7 @@ const Team = () => {
 
   return (
     <div className="team-container">
+      <h1 className='team-title'>Organizing Team</h1>
       <div className="team-row">
         {teamMembers.map((member, index) => (
           <TeamMemberCard key={index} {...member} />

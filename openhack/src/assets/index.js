@@ -11,6 +11,9 @@ import Prize from './Prize.png';
 import VersatilePrime from './VersatilePrime.png';
 import TrickyLab from './TrickyLab.png';
 import ContactPeople from './ContactPeople.svg';
+import KrishMaheshwari from './Krish_Maheshwari.png';
+import LakshayAgarwal from './Lakshay_Agarwal.png';
+import TusharDaga from './Tushar_Daga.png';
 
 export const Assets = {
     OpenHackWebM: OpenHackWebM,
@@ -26,4 +29,7 @@ export const Assets = {
     TrickyLab: TrickyLab,
     OpenHack: OpenHack,
     ContactPeople: ContactPeople,
+    TusharDaga: TusharDaga,
+    KrishMaheshwari: KrishMaheshwari,
+    LakshayAgarwal: LakshayAgarwal,
 }

@@ -9,12 +9,23 @@
     gap: 1rem;
     position: relative;
     left: 3.2rem;
+    margin-bottom: 4rem;
 
     @media screen and (max-width: 768px) {
-        grid-template-columns: 300px;
+        grid-template-columns: 150px 150px;
         left: 2rem;
         gap: 1rem;
       }
+}
+
+.social-icon {
+    color: #000000;
+    width: 1.8rem;
+    height: 1.8rem;
+    @media screen and (max-width: 768px) {
+        width: 0.9rem;
+        height: 0.9rem;
+        }
 }
 
 .team-container {
@@ -72,20 +83,18 @@
     min-height: 167px;
       }
 }
-
-.card .card-image {
+.card-image {
     width: 100%;
-    max-height: 340px;
+    max-height: 375px;
     @media screen and (max-width: 768px) {
         max-height: 170px;
         }
 }
 
-.card .card-image img {
+.card-image img {
     max-width: 291px;
     max-height: 387px;
     object-fit: cover;
-
 
     @media screen and (max-width: 768px) {
     max-width: 146px;
@@ -93,8 +102,7 @@
     }
     
 }
-
-.card .card-content {
+ .card-content {
     position: absolute;
     bottom: -180px;
     color: #fff;
@@ -106,6 +114,9 @@
     box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 20px;
+    @media screen and (max-width: 768px) {
+        min-height: 50px;
+        }
 }
 
 .card:hover .card-content {
@@ -121,26 +132,19 @@
     opacity: 1;
 }
 
-.card .card-content h4,
-.card .card-content h5 {
-    font-size: 1.1rem;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-align: center;
-    transition: 0.8s;
-    font-weight: 500;
-    opacity: 0;
-    transform: translateY(-40px);
-    transition-delay: 0.2s;
-}
 
 .card .card-content h5 {
     transition: 0.5s;
-    font-weight: 400;
-    font-size: 0.8rem;
+    font-weight: 500;
+    font-size: 1rem;
     letter-spacing: 2px;
     font-family: Comfortaa;
     color: #000000;
+    @media screen and (max-width: 768px) {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        
+        }
 }
 
 .card .card-content h4 {
@@ -149,11 +153,10 @@
     letter-spacing: 2px;
     font-family: Into The Void;
     color: #000000;
-}
-
-.card .card-content .social-icons {
-    list-style: none;
-    padding: 0;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        }
 }
 
 
@@ -162,19 +165,23 @@
     transition: 0.5s;
     transition-delay: calc(0.15s * var(--i));
     transform: translateY(50px);
+    list-style: none;
 }
 
 
 .card:hover .card-content .social-icons li {
     transform: translateY(20px);
+    list-style: none;
 }
 
 .card .card-content .social-icons li a {
     color: #fff;
+    list-style: none;
 }
 
 .card .card-content .social-icons li a span {
     font-size: 1.3rem;
+    list-style: none;
 }
 
 @media(max-width: 991.5px) {

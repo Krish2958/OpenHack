@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .faq{
   margin: 2rem;
   font-family: Montserrat;
@@ -40,6 +45,10 @@
     color: #F2F2F2;
     border: 1px solid #F2F2F2;
     border-radius: 5px;
+
+    @media screen and (max-width: 768px) {
+      width: 17rem;
+    }
 
   }
 

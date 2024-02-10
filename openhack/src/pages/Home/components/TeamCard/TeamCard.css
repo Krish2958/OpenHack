@@ -119,6 +119,9 @@
         }
 }
 
+ol, ul {
+    padding-left: 0;
+}
 .card:hover .card-content {
     bottom: 0px;
 }
@@ -133,6 +136,23 @@
 }
 
 
+.card .card-content h6 {
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: Comfortaa;
+    color: #000000;
+    margin-top: 1rem;
+    @media screen and (max-width: 768px) {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        padding: 0 1px;
+        text-align: center;
+        margin-top: 12px;
+        }
+}
+
 .card .card-content h5 {
     transition: 0.5s;
     font-weight: 500;
@@ -143,7 +163,8 @@
     @media screen and (max-width: 768px) {
         font-size: 0.7rem;
         letter-spacing: 1px;
-        
+        padding: 0 1px;
+        text-align: center;
         }
 }
 
@@ -156,6 +177,8 @@
     @media screen and (max-width: 768px) {
         font-size: 0.8rem;
         letter-spacing: 1px;
+        padding: 0 1px;
+        text-align: center;
         }
 }
 

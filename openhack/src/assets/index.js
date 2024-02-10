@@ -13,6 +13,7 @@ import TrickyLab from './TrickyLab.png';
 import ContactPeople from './ContactPeople.svg';
 import KrishMaheshwari from './Krish_Maheshwari.png';
 import LakshayAgarwal from './Lakshay_Agarwal.png';
+import RishiRajOjha from './Rishi_Raj_Ojha.png';
 import TusharDaga from './Tushar_Daga.png';
 
 export const Assets = {
@@ -32,4 +33,5 @@ export const Assets = {
     TusharDaga: TusharDaga,
     KrishMaheshwari: KrishMaheshwari,
     LakshayAgarwal: LakshayAgarwal,
+    RishiRajOjha: RishiRajOjha,
 }

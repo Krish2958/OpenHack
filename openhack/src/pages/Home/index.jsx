@@ -29,12 +29,13 @@ export const Home = () => {
         </span>
         </div>
           <div className='sponsors'>
-              
+            <div className='sponsor-title'>
+           <h3 className='title-heading'>Powered By</h3>
               <a href="https://readybytes.in/" className='sponsor-title' target="_blank" rel="noopener noreferrer">
-                <h3 className='title-heading'>Powered By</h3>
+                
                 <img className='title-sponsor' src={Assets.ReadyBytes} alt='Ready Bytes' />
               </a>
-
+              </div>
               <div className='sponsor-associate'>
               <h3 className='associate-heading'>In Association with</h3>
                 <div className='ass'>

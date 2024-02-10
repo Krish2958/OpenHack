@@ -1,7 +1,7 @@
 .custom-navbar {
     color: #e6e6e6;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: auto;
+    margin-right: auto;
     padding: 15px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.8); /* ALPHHA VALUES FOR BLURR EFFECT */
@@ -13,9 +13,10 @@
 
     @media screen and (max-width:768px ){
       flex-direction: row-reverse;
-       justify-content: center;
+      justify-content: center;
       align-items: center;
       margin: 0;
+      width: 17rem;
       
     }
 
@@ -33,6 +34,7 @@
   @media screen and (max-width:768px ){
     width: 80%;
     text-align: center;
+    margin-left: 1.5rem;
     
   }
  
@@ -49,14 +51,23 @@
   background-color: #8ce8e5;
   color: #000000;
   border-color: #000000;
+  @media screen and (max-width: 768px) {
+    font-size: 1.2rem;
+    text-align: center;
+  }
 }
 
   .bg-dark {
     --bs-bg-opacity: none;
   }
   .brand-logo-nav {
-    width: 250px; /* SIZE OF THE LOGO  */
+    width: 250px;
     height: auto;
+
+    @media screen and (max-width: 768px) {
+      width: 170px;
+      height: auto;
+    }
   }
   
   .nav-itmes {
@@ -77,8 +88,7 @@
     @media screen and (max-width:768px ){
       flex-direction: column;
       gap: 0;
-      font-size: normal;
-      margin-left:2.5rem;
-
+      font-size: 1.2rem;
+      text-align: center;
     }
 }

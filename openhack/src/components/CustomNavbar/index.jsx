@@ -26,12 +26,15 @@ export const CustomNavbar = () => {
       expand="lg"
       expanded={expanded}
     >
+      <div className='nav-content'>
+      <div className='navbar-container'>
       <LinkContainer to="/" onClick={handleNavCollapse}>
         <Navbar.Brand>
           <img alt='OpenHack' className="brand-logo-nav" src={Assets.OpenHack} />
         </Navbar.Brand>
       </LinkContainer>
       <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!expanded)} />
+      </div>
       <Navbar.Collapse
         id="basic-navbar-nav"
         onSelect={handleNavCollapse}
@@ -57,6 +60,7 @@ export const CustomNavbar = () => {
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>
+      </div>
     </Navbar>
   );
 };

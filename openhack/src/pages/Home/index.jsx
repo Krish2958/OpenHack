@@ -66,8 +66,8 @@ export const Home = () => {
           <div className='about-card-content'>
           <h1 className='about-card-title'>About OpenHack 2024</h1>
           <p className="about-card-description">Tech Bizz Club presents OpenHack 2024, the first Open Source Hackathon at MLVTEC, Bhilwara. Ignite innovation in a code-driven journey—be part of the revolution! <span className='coming-soon__text-sep' >
-        <h3 className='coming-soon__text-1' style={{fontSize:'0.9rem'}}>#Code</h3>
-        <h3 className='coming-soon__text-2' style={{fontSize:'0.9rem'}}>Kar</h3>
+        <h3 className='coming-soon__text-1' >#Code</h3>
+        <h3 className='coming-soon__text-2' >Kar</h3>
         </span></p>
           </div>
           <img className='about-card-bg-img' src={Assets.About} alt="about" />        

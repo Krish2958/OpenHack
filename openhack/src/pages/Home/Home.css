@@ -203,7 +203,21 @@
   }
 }
 
+.about-card-description .coming-soon__text-1 {
+  font-size: 1.6rem;
+  color: #8CE8E5;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+}
 
+.about-card-description .coming-soon__text-2 {
+  font-size: 1.6rem;
+  color: #6F61C0;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+}
 
 .about-card-bg-img {
   width: 100%;

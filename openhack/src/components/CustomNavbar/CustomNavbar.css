@@ -22,12 +22,8 @@
 
   }
 
-  .btn {
-    --bs-btn-border-color: #8ce8e5;
-    --bs-btn-hover-border-color: #8ce8e5;
-  }
 
-.reg-button {
+ .reg-button {
   font-size: 1.4rem;
   background-color: #8ce8e5;
   color: #000000;
@@ -36,36 +32,10 @@
     width: 80%;
     text-align: center;
     margin-left: 1.5rem;
+    font-size: 1.2rem;
     
   }
  
-
-}
-
-.reg-button:hover {
-  font-size: 1.4rem;
-  background-color: #000000;
-}
-
-.btn.active {
-  font-size: 1.4rem;
-  background-color: #79c5c3;
-  color: #000000;
-  border-color: #000000;
-  @media screen and (max-width: 768px) {
-    font-size: 1.2rem;
-    text-align: center;
-  }
-}
-.btn.disabled {
-  font-size: 1.4rem;
-  background-color: #8ce8e5;
-  color: #000000;
-  border-color: #000000;
-  @media screen and (max-width: 768px) {
-    font-size: 1.2rem;
-    text-align: center;
-  }
 }
 
   .bg-dark {

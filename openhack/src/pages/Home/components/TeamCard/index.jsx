@@ -50,10 +50,10 @@ const TeamMemberCard = ({ name, batch, role, imageUrl, email, linkedin, instagra
 
 const Team = () => {
   const teamMembers = [
-    { name: 'Krish Maheshwari',batch: 'III, CSE-IoT', role: 'Technical Operations Lead', imageUrl: Assets.KrishMaheshwari, email: 'krishm.km17@gmail.com', linkedin: 'https://www.linkedin.com/in/krishm2958/', instagram: 'https://www.instagram.com/krishm.km18/', github: 'https://github.com/krish2958' },
-    { name: 'Lakshay Agarwal',batch: 'III, ME', role: 'Design Operations Help', imageUrl: Assets.LakshayAgarwal, email: 'lakshay@example.com', linkedin: 'https://www.linkedin.com/in/lakshayagarwal/', instagram: 'https://www.instagram.com/lakshayagarwal/' },
-    { name: 'Rishi Raj Ojha',batch: 'III, ME', role: 'Managment Help', imageUrl: Assets.RishiRajOjha, email: 'rishi@example.com', linkedin: 'https://www.linkedin.com/in/rishirajojha/', instagram: 'https://www.instagram.com/rishirajojha/' },
-    { name: 'Tushar Daga',batch: 'II, CSE-IoT', role: 'Dev Help', imageUrl: Assets.TusharDaga, email: 'tushar@example.com', linkedin: 'https://www.linkedin.com/in/tushardaga/', instagram: 'https://www.instagram.com/tushardaga/', github: 'https://github.com/tushardaga' },
+    { name: 'Krish Maheshwari',batch: 'III, CSE-IoT', role: 'Technical Lead', imageUrl: Assets.KrishMaheshwari, email: 'krishm.km17@gmail.com', linkedin: 'https://www.linkedin.com/in/krishm2958/', instagram: 'https://www.instagram.com/krishm.km18/', github: 'https://github.com/krish2958' },
+    { name: 'Lakshay Agarwal',batch: 'III, ME', role: 'Desgin Operations', imageUrl: Assets.LakshayAgarwal, email: 'lakshay@example.com', linkedin: 'https://www.linkedin.com/in/lakshayagarwal/', instagram: 'https://www.instagram.com/lakshayagarwal/' },
+    { name: 'Rishi Raj Ojha',batch: 'III, ME', role: 'Managment', imageUrl: Assets.RishiRajOjha, email: 'rishi@example.com', linkedin: 'https://www.linkedin.com/in/rishirajojha/', instagram: 'https://www.instagram.com/rishirajojha/' },
+    { name: 'Tushar Daga',batch: 'II, CSE-IoT', role: 'Development', imageUrl: Assets.TusharDaga, email: 'tushar@example.com', linkedin: 'https://www.linkedin.com/in/tushardaga/', instagram: 'https://www.instagram.com/tushardaga/', github: 'https://github.com/tushardaga' },
   ];
 
   return (

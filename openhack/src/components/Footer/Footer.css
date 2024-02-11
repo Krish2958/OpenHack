@@ -1,0 +1,23 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 5rem;
+    background-color: #6F61C0;
+    position: relative;
+    bottom: 0;
+    @media screen and (max-width: 768px) {
+        height: 3.75rem;
+    }
+}
+
+.footer-text {
+    font-family: 'Comfortaa';
+    font-size: 1.5rem;
+    color: #F2F2F2;
+    @media screen and (max-width: 768px) {
+        font-size: 0.9rem;
+    }
+
+}

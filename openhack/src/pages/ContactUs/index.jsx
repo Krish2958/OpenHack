@@ -19,9 +19,7 @@ export const ContactUs = () => {
       <Icon.TelephoneFill className='contact-us-call' />
       <div className='contact-us-call-number'>
       <h2 className='contact-us-call-numbers'>Krish Maheshwari - +91 75683 79160</h2>
-      <h2 className='contact-us-call-numbers'>Rishi Raj Ojha - +91 82909 23571</h2>
       <h2 className='contact-us-call-numbers'>Lakshay Agarwal - +91 97832 41801</h2>
-      <h2 className='contact-us-call-numbers'>Tushar Daga - +91 86195 44702</h2>
       </div>
       </div>
       </div>

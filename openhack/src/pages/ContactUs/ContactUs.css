@@ -1,3 +1,8 @@
+.contact-us-page{ 
+    width: 100vw;
+    height: 100vh;
+}
+
 .contact-us {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -120,13 +125,13 @@
 }
 
 .contact-us-call {
-    width: 10rem;
-    height: 10rem;
+    width: 4rem;
+    height: 4rem;
     color: #8CE8E5;
 
     @media screen and (max-width: 768px) {
-        width: 5rem;
-        height: 5rem;
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
 
@@ -146,7 +151,7 @@
     color: #F2F2F2;
 
     @media screen and (max-width: 768px) {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
 

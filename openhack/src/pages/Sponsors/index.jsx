@@ -15,16 +15,16 @@ export const Sponsors = () => {
           <h1 className='sponsors-card-title'>Title Sponsor</h1>
           <p className="sponsors-card-description">Ready Bytes Software Labs Pvt. Ltd. is a Bhilwara based Software company founded by Mr. Shyam Sundar Verma in 2009. Ready Bytes specializes in creating software solutions.</p>
           <span className='sponsors__icon-container'>
-          <a href="mailto:info_openhack@mlvti.ac.in" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/readybytes" target="_blank" rel="noopener noreferrer">
             <Icon.Facebook className='sponsors__icon' color='#8CE8E5' />
           </a>
-          <a href="https://www.instagram.com/openhack2024/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/readybytes/" target="_blank" rel="noopener noreferrer">
             <Icon.Instagram className='sponsors__icon' color='#8CE8E5' />
           </a>
-          <a href="https://www.instagram.com/openhack2024/" target="_blank" rel="noopener noreferrer">
+          <a href="http://www.linkedin.com/company/ready-bytes-software-labs-pvt.-ltd." target="_blank" rel="noopener noreferrer">
             <Icon.Linkedin className='sponsors__icon' color='#8CE8E5' />
           </a>
-          <a href="https://www.instagram.com/openhack2024/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.readybytes.in/" target="_blank" rel="noopener noreferrer">
             <Icon.Globe className='sponsors__icon' color='#8CE8E5' />
           </a>
         </span>
@@ -88,7 +88,7 @@ team. Versatile strength is its team who is capable to face any type of challeng
           <a href="https://www.instagram.com/trickylab121/" target="_blank" rel="noopener noreferrer">
             <Icon.Instagram className='sponsors__icon' color='#8CE8E5' />
           </a>
-          <a href="https://www.instagram.com/tricky121/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/company/trickylab/" target="_blank" rel="noopener noreferrer">
             <Icon.Linkedin className='sponsors__icon' color='#8CE8E5' />
           </a>
           <a href="https://www.trickylab.com" target="_blank" rel="noopener noreferrer">

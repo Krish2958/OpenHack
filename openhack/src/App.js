@@ -5,10 +5,11 @@ import './App.css';
 import { Home, Schedule, ContactUs, FAQ, Sponsors, Registration } from './pages';
 import { CustomNavbar } from './components/CustomNavbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Footer } from './components/Footer';
 
 const App = () => {
   return (
-      
+      <>
         <Router>
           <CustomNavbar />
           <Container>
@@ -21,9 +22,11 @@ const App = () => {
           <Route path="/registration" element={<Registration />} />
           </Routes>
           </Container>
+          
         </Router>
-      
+        <Footer />
 
+        </>
   );
 };
 

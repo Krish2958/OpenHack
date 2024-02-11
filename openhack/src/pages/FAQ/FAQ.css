@@ -63,6 +63,10 @@
   }
 
   .accordion {
+    width: 74rem;
+    @media screen and (max-width: 768px) {
+      width: 17rem;
+    }
     --bs-accordion-btn-icon: none;
     --bs-accordion-btn-icon-width: 0;
   }
@@ -72,6 +76,7 @@
     border: 1px solid #F2F2F2;
     border-radius: 1px;
     color: #8CE8E5; 
+    width: 74rem;
 
     @media screen and (max-width: 768px) {
       width: 17rem; 
@@ -89,4 +94,12 @@
       width: 17rem;
     }
    
+  }
+
+  .faq .accordion {
+    width: 74rem;
+    @media screen and (max-width: 768px) {
+      width: 17rem;
+    }
+
   }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
 import { Assets } from '../../assets';
 import * as Icon from 'react-bootstrap-icons';
 import './Home.css';
@@ -14,8 +15,13 @@ export const Home = () => {
             Oops! The OpenHack 2024 logo video couldn't be loaded. Stay tuned for exciting updates!
             </video>
         <h1 className='coming-soon__year'>24-25 FEB, 2024</h1>
-        <div className='name-container'><h3 className='coming-soon__text'>Registrations Open Soon.</h3>
-        <h3 className='coming-soon__text-1'>Stay Tuned.</h3></div>
+        <div className='name-container'><h3 className='coming-soon__text'>Registrations have started</h3>
+        <span className='coming-soon__text-sep' >
+        <h3 className='coming-soon__text-1'>#Code</h3>
+        <h3 className='coming-soon__text-2'>Kar</h3>
+        </span>
+        </div>
+        <Button className='reg-button' href='/registration' variant="primary">Register Now</Button>
         <span className='coming-soon__icon-container'>
           <a href="tel:+917568379160" >
             <Icon.Telephone className='coming-soon__icon' color='#8CE8E5' />
@@ -59,7 +65,10 @@ export const Home = () => {
         <div className='about-card'>
           <div className='about-card-content'>
           <h1 className='about-card-title'>About OpenHack 2024</h1>
-          <p className="about-card-description">Tech Bizz Club presents OpenHack 2024, the first Open Source Hackathon at MLVTEC, Bhilwara. Ignite innovation in a code-driven journey—be part of the revolution! #CodeKar</p>
+          <p className="about-card-description">Tech Bizz Club presents OpenHack 2024, the first Open Source Hackathon at MLVTEC, Bhilwara. Ignite innovation in a code-driven journey—be part of the revolution! <span className='coming-soon__text-sep' >
+        <h3 className='coming-soon__text-1'>#Code</h3>
+        <h3 className='coming-soon__text-2'>Kar</h3>
+        </span></p>
           </div>
           <img className='about-card-bg-img' src={Assets.About} alt="about" />        
         </div>
@@ -76,6 +85,7 @@ export const Home = () => {
           <h1 className='about-prize-title'>Prize Pool</h1>
           <h1 className='about-prize-title-1'>Rs.9000/-*</h1>
           <p className="about-prize-description">*Including cash prizes, goodies, bounties and more.</p>
+          <Button className='about-prize-reg-button reg-button' href='/registration' variant="primary">Register Now</Button>
           </div>
           <img className='about-prize-bg-img' src={Assets.Prize} alt="about" />        
         </div>

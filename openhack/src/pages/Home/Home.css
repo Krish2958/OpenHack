@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 
   @media screen and (max-width:768px) {
     gap: 0.5rem;
@@ -79,6 +79,25 @@
 }
 
 .coming-soon__text {
+  color: #F2F2F2;
+  font-family: Comfortaa;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+
+.coming-soon__text-sep {
+  color: #000000;
+  display: inline-flex;
+  font-family: Comfortaa;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+
+.coming-soon__text-1 {
   color: #8CE8E5;
   font-family: Comfortaa;
 
@@ -86,13 +105,18 @@
     font-size: 20px;
   }
 }
-.coming-soon__text-1 {
+.coming-soon__text-2 {
   color: #6F61C0;
   font-family: Comfortaa;
 
   @media screen and (max-width:768px) {
     font-size: 20px;
   }
+}
+
+.reg-button {
+  font-family: Comfortaa;
+  font-size: 20px;
 }
 
 .associate {
@@ -290,7 +314,7 @@
 }
 
 .about-prize-content {
-  margin-top: 10rem;
+  margin-top: 8rem;
 
   @media screen and (max-width: 768px) {
     margin-top: 4rem;
@@ -360,6 +384,14 @@
     margin-top: 0;
     width: 75%;
     height: 50%;
+  }
+}
+
+.about-prize-reg-button {
+  position: relative;
+  left: 6rem;
+  @media screen and (max-width: 768px) {
+    left: 2rem;
   }
 }
 

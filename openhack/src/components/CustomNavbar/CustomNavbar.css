@@ -46,6 +46,16 @@
   background-color: #000000;
 }
 
+.btn.active {
+  font-size: 1.4rem;
+  background-color: #79c5c3;
+  color: #000000;
+  border-color: #000000;
+  @media screen and (max-width: 768px) {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+}
 .btn.disabled {
   font-size: 1.4rem;
   background-color: #8ce8e5;

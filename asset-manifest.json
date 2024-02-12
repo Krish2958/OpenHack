@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/OpenHack/static/css/main.a8abf420.css",
+    "main.js": "/OpenHack/static/js/main.b4b62bde.js",
+    "static/js/787.0015b5a5.chunk.js": "/OpenHack/static/js/787.0015b5a5.chunk.js",
+    "static/media/OpenHack_Rulebook.pdf": "/OpenHack/static/media/OpenHack_Rulebook.32b8be1d9c6df7adf189.pdf",
+    "static/media/About_BG.png": "/OpenHack/static/media/About_BG.adf5fcafeaf46b38dd0f.png",
+    "static/media/Code_BG.png": "/OpenHack/static/media/Code_BG.de3324d46995e862f85f.png",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/OpenHack/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
+    "static/media/OpenHack_WEBM.webm": "/OpenHack/static/media/OpenHack_WEBM.d68a34f5658590f187f0.webm",
+    "static/media/OpenHack_MP4.mp4": "/OpenHack/static/media/OpenHack_MP4.a48a28d1bada00a44e01.mp4",
+    "static/media/Krish_Maheshwari.png": "/OpenHack/static/media/Krish_Maheshwari.b947d35ae9e422be76b9.png",
+    "static/media/Rishi_Raj_Ojha.png": "/OpenHack/static/media/Rishi_Raj_Ojha.32468a959601c3e90ced.png",
+    "static/media/Tushar_Daga.png": "/OpenHack/static/media/Tushar_Daga.c9c4f7b717c7827688fa.png",
+    "static/media/Lakshay_Agarwal.png": "/OpenHack/static/media/Lakshay_Agarwal.3e47d9329c89b95f7c6a.png",
+    "static/media/Comfortaa-VariableFont_wght.ttf": "/OpenHack/static/media/Comfortaa-VariableFont_wght.7b8c952927af2b0deacd.ttf",
+    "static/media/TrickyLab.png": "/OpenHack/static/media/TrickyLab.88cff62ab456f0c1c0aa.png",
+    "static/media/Prize.png": "/OpenHack/static/media/Prize.6f83e2927276e3d53860.png",
+    "static/media/ContactPeople.svg": "/OpenHack/static/media/ContactPeople.aee73115cf1500bb865ba62b7396af0d.svg",
+    "static/media/Into-The-Void.ttf": "/OpenHack/static/media/Into-The-Void.7e989767022b6d0890c5.ttf",
+    "static/media/TechBizz.png": "/OpenHack/static/media/TechBizz.b212a0ab619d57081ce3.png",
+    "static/media/Laptop_BG.webp": "/OpenHack/static/media/Laptop_BG.cfeb2ddc9ee8f8c2ae57.webp",
+    "static/media/OpenHack.png": "/OpenHack/static/media/OpenHack.8b236c4cb4ddcc2ab36e.png",
+    "static/media/ReadyBytes.png": "/OpenHack/static/media/ReadyBytes.2001942e34bd1bd3ffde.png",
+    "static/media/T2T.png": "/OpenHack/static/media/T2T.7c905e0d7b544f7790e4.png",
+    "static/media/VersatilePrime.png": "/OpenHack/static/media/VersatilePrime.99d8c9a47349936e4f5b.png",
+    "index.html": "/OpenHack/index.html",
+    "main.a8abf420.css.map": "/OpenHack/static/css/main.a8abf420.css.map",
+    "main.b4b62bde.js.map": "/OpenHack/static/js/main.b4b62bde.js.map",
+    "787.0015b5a5.chunk.js.map": "/OpenHack/static/js/787.0015b5a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8abf420.css",
+    "static/js/main.b4b62bde.js"
+  ]
+}

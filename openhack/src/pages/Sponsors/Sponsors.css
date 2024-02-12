@@ -137,6 +137,14 @@
 }
 
 @media screen and (max-width:768px){
+.sponsors-page {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
 .title_sponsor {
     flex-direction: column-reverse;
 }

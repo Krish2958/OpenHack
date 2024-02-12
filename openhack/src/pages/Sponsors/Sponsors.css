@@ -35,13 +35,6 @@
   }
 }
 
-
-
-
-
-
-
-
 .sponsors-card-content {
   margin: 3rem 2rem 3rem 1rem;
 
@@ -97,19 +90,11 @@
 .associate_sponsor-1 .sponsors-card-bg-img {
   margin-top: 7rem;
   margin-left: 2rem;
-  @media screen and (max-width: 768px){
-    width: 80%;
-    margin: 3rem auto 0 auto;
-  }
 }
 
 .associate_sponsor-2 .sponsors-card-bg-img {
   margin-top: 7rem;
   margin-left: 2rem;
-  @media screen and (max-width: 768px){
-    width: 80%;
-    margin: 0 auto 0 auto;
-  }
 }
 
 .title_sponsor .sponsors-card-bg-img {
@@ -183,5 +168,19 @@
 .digital_ally .sponsors-card-content {
     margin: 0 auto 8rem auto;
   
+}
+
+.associate_sponsor-1 .sponsors-card-bg-img {
+    width: 80%;
+    margin: 3rem auto 0 auto;
+  
+}
+.associate_sponsor-2 .sponsors-card-bg-img {
+  margin-top: 7rem;
+  margin-left: 2rem;
+
+    width: 80%;
+    margin: 0 auto 0 auto;
+
 }
 }

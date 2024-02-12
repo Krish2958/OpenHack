@@ -1,0 +1,35 @@
+.rules-page {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    height: 65vh;
+
+}
+
+.rules-title {
+    font-family: 'Into The Void';
+    color: #F2F2F2;
+    font-size: 48px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+    @media screen and (max-width: 768px) {
+        font-size: 24px;
+    }
+}
+
+.rules-content {
+    font-family: Comfortaa;
+    color: #F2F2F2;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    
+    @media screen and (max-width: 768px) {
+        font-size: 18px;
+    }
+}
+
+.rules-download  {
+    width: fit-content;
+    margin-left: 2rem;
+}

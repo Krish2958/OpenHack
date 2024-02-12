@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.faq{
+  margin: 2rem;
+  font-family: Montserrat;
+}
+
+.faq svg {
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  right: 1px;
+  top: 10px;
+  margin: auto;
+}
+
+.faq-title {
+  font-family: "Into The Void";
+  color: #F2F2F2;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  font-size: 48px;
+
+  @media screen and (max-width: 768px) {
+    font-size: 24px;
+    
+  }
+}
+
+.accordion-body {
+  display: flex;
+  width: 74rem;
+  
+  @media screen and (max-width: 768px) {
+    width: 17rem;
+    
+  }
+}
+
+.accordion-button {
+    background-color: #000000;
+    color: #F2F2F2;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    width: 74rem;
+
+    @media screen and (max-width: 768px) {
+      width: 17rem;
+    }
+
+  }
+
+  .icon::after {
+    display: none;
+  }
+
+  .accordion-item:not(:first-of-type) {
+    border: 1px solid hsl(0, 0%, 95%);
+    border-radius: 5px;  
+  }
+
+  .accordion {
+    width: 74rem;
+    @media screen and (max-width: 768px) {
+      width: 17rem;
+    }
+    --bs-accordion-btn-icon: none;
+    --bs-accordion-btn-icon-width: 0;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #000000;
+    border: 1px solid #F2F2F2;
+    border-radius: 1px;
+    color: #8CE8E5; 
+    width: 74rem;
+
+    @media screen and (max-width: 768px) {
+      width: 17rem; 
+    }
+  }
+
+  .accordion-item {
+    background-color: #000000;
+    color: #8CE8E5;
+    margin-bottom: 2rem;
+    border: 1px solid #F2F2F2;
+    --bs-accordion-border: none
+
+    @media screen and (max-width: 768px) {
+      width: 17rem;
+    }
+   
+  }
+
+  .faq .accordion {
+    width: 74rem;
+    @media screen and (max-width: 768px) {
+      width: 17rem;
+    }
+
+  }

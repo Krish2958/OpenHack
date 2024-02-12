@@ -56,7 +56,7 @@ export const CustomNavbar = () => {
             <Nav.Link>Contact Us</Nav.Link>
           </LinkContainer>
           <LinkContainer to="/registration" onClick={handleNavCollapse}>
-            <Button className='reg-button' variant="primary">Registration</Button>
+            <Button className='reg-button' variant="primary">Register Now</Button>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

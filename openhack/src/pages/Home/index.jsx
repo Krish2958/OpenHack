@@ -23,7 +23,7 @@ export const Home = () => {
         <div className='name-container'><h3 className='coming-soon__text'>Early Bird Registration Ends in:</h3>
         
         </div>
-        <CountdownTimer  targetDate="2024-02-14T23:59:59" />
+        <CountdownTimer  targetDate="2024-02-13T23:59:59" />
         <Button className='coming-soon__reg-button' href='/registration' variant="primary">Register Now</Button>
         <span className='coming-soon__icon-container'>
           <a href="tel:+917568379160" >

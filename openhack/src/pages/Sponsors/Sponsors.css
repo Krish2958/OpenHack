@@ -140,10 +140,6 @@
 .title_sponsor .sponsors-card-bg-img {
   margin-top: 7rem;
   margin-left: 2rem;
-  @media screen and (max-width: 768px){
-    width: 80%;
-    margin: 0 auto 0 auto;
-  }
 }
 
 .digital_ally .sponsors-card-bg-img {
@@ -180,14 +176,17 @@
   }
 }
 
+@media screen and (max-width:768px){
 .title_sponsor {
-  @media screen and (max-width: 768px) {
     flex-direction: column-reverse;
-  }
 }
 
 .title_sponsor .sponsors-card-content {
-  @media screen and (max-width: 768px) {
-    margin: 0 auto 3rem auto;
+  margin: 0 auto 3rem auto;
   }
+  .title_sponsor .sponsors-card-bg-img{
+    width: 80%;
+    margin: 0 auto 0 auto;
+  
+}
 }

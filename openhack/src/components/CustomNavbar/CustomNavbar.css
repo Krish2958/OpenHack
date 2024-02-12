@@ -26,10 +26,6 @@
 
 .nav-content {
     display: inline-flex;
-    @media screen and (max-width:768px ){
-      display: flex;
-      flex-direction: column;
-    }
 }
 
 .navbar-container {
@@ -93,4 +89,11 @@
       font-size: 1.2rem;
       text-align: center;
     }
+}
+
+.nav-content {
+  @media screen and (max-width:768px ){
+    display: flex;
+    flex-direction: column;
+  }
 }

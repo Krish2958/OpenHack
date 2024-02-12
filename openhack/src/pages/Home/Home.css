@@ -180,14 +180,6 @@
   font-family: Into The Void;
 }
 
-@media screen and (max-width:768px) {
-  .about-card-title {
-      margin-top: 30px;
-      font-size: 1.6rem;
-      left: 2rem;
-  
-  }
-}
 .about-card-description {
   color: #F2F2F2;
   font-size: 1.6rem;
@@ -268,11 +260,6 @@
   margin-top: 10px;
   font-family: Into The Void;
 
-  @media screen and (max-width: 768px) {
-    margin-top: 30px;
-    font-size: 1.6rem;
-    left: 2rem;
-  }
 }
 
 .about-theme-title-1 {
@@ -357,13 +344,6 @@
   font-size: 3.2rem;
   margin-top: 20px;
   font-family: Into The Void;
-  @media screen and (max-width: 768px) {
-    margin-top: 30px;
-    font-size: 1.6rem;
-    left: 2rem;
-  }
-
-  
 }
 
 .about-prize-title-1 {
@@ -458,12 +438,6 @@
   font-size: 3.2rem;
   margin-top: 4rem;
   font-family: Into The Void;
-
-  @media screen and (max-width: 768px) {
-    margin-top: 30px;
-    font-size: 1.6rem;
-    left: 2rem;
-  }
 }
 
 .about-club-title-1 {
@@ -596,5 +570,13 @@
 
   @media screen and (max-width:768px) {
     width: 90%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .about-card-title, .about-theme-title, .about-club-title, .about-prize-title {
+      margin-top: 30px;
+      font-size: 1.6rem;
+      left: 2rem;
   }
 }

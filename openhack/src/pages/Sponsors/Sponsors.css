@@ -36,35 +36,10 @@
 }
 
 
-.associate_sponsor-1 .sponsors-card-content {
-  @media screen and (max-width: 768px) {
-    margin: 0 auto 0 auto;
-  }
-}
 
-.associate_sponsor-2 {
-  @media screen and (max-width: 768px) {
-    flex-direction: column-reverse;
-  }
-}
 
-.associate_sponsor-2 .sponsors-card-content {
-  @media screen and (max-width: 768px) {
-    margin: 0 auto 6rem auto;
-  }
-}
 
-.digital_ally {
-  @media screen and (max-width: 768px) {
-    height: 33rem;
-  }
-}
 
-.digital_ally .sponsors-card-content {
-  @media screen and (max-width: 768px) {
-    margin: 0 auto 8rem auto;
-  }
-}
 
 
 .sponsors-card-content {
@@ -187,6 +162,26 @@
   .title_sponsor .sponsors-card-bg-img{
     width: 80%;
     margin: 0 auto 0 auto;
+}
+
+.associate_sponsor-1 .sponsors-card-content {
+    margin: 0 auto 0 auto;
+}
+
+.associate_sponsor-2 {
+    flex-direction: column-reverse;
+}
+.associate_sponsor-2 .sponsors-card-content {
+    margin: 0 auto 6rem auto;
+}
+
+.digital_ally {
+    height: 33rem;
+
+}
+
+.digital_ally .sponsors-card-content {
+    margin: 0 auto 8rem auto;
   
 }
 }

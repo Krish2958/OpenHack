@@ -35,17 +35,6 @@
   }
 }
 
-.title_sponsor {
-  @media screen and (max-width: 768px) {
-    flex-direction: column-reverse;
-  }
-}
-
-.title_sponsor .sponsors-card-content {
-  @media screen and (max-width: 768px) {
-    margin: 0 auto 3rem auto;
-  }
-}
 
 .associate_sponsor-1 .sponsors-card-content {
   @media screen and (max-width: 768px) {
@@ -188,5 +177,17 @@
   @media screen and (max-width:768px) {
     width: 1.5rem;
     height: 1.5rem;
+  }
+}
+
+.title_sponsor {
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.title_sponsor .sponsors-card-content {
+  @media screen and (max-width: 768px) {
+    margin: 0 auto 3rem auto;
   }
 }

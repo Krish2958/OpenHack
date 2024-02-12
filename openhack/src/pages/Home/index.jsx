@@ -4,6 +4,7 @@ import { Assets } from '../../assets';
 import * as Icon from 'react-bootstrap-icons';
 import './Home.css';
 import Team from './components/TeamCard';
+import { CountdownTimer } from '../../components/CountdownTimer';
 
 export const Home = () => {
   return (
@@ -15,12 +16,14 @@ export const Home = () => {
             Oops! The OpenHack 2024 logo video couldn't be loaded. Stay tuned for exciting updates!
             </video>
         <h1 className='coming-soon__year'>24-25 FEB, 2024</h1>
-        <div className='name-container'><h3 className='coming-soon__text'>Registrations have started</h3>
         <span className='coming-soon__text-sep' >
         <h3 className='coming-soon__text-1'>#Code</h3>
         <h3 className='coming-soon__text-2'>Kar</h3>
         </span>
+        <div className='name-container'><h3 className='coming-soon__text'>Early Bird Registration Ends in:</h3>
+        
         </div>
+        <CountdownTimer  targetDate="2024-02-14T23:59:59" />
         <Button className='coming-soon__reg-button' href='/registration' variant="primary">Register Now</Button>
         <span className='coming-soon__icon-container'>
           <a href="tel:+917568379160" >

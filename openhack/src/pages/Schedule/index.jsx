@@ -10,4 +10,3 @@ export const Schedule = () => {
         </div>
   )
 }
-

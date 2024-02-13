@@ -16,10 +16,10 @@
 
     @media screen and (max-width:768px ){
       flex-direction: row;
-      justify-content: center;
+      justify-content: flex-start;
       align-items: center;
       margin: 0;
-      width: 17rem;
+      width: 100%;
     }
 
   }
@@ -36,7 +36,7 @@
       justify-content: center;
       align-items: center;
       margin: 0;
-      width: 17rem; 
+      width: 100%; 
   }
 }
 

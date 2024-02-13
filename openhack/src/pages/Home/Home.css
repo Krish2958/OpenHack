@@ -199,6 +199,10 @@
   }
 }
 
+.name-container .strikethrough {
+  text-decoration: line-through;
+}
+
 .about-card-description .coming-soon__text-1 {
   font-size: 1.6rem;
   color: #8CE8E5;

@@ -20,10 +20,19 @@ export const Home = () => {
         <h3 className='coming-soon__text-1'>#Code</h3>
         <h3 className='coming-soon__text-2'>Kar</h3>
         </span>
-        <div className='name-container'><h3 className='coming-soon__text'>Early Bird Registration Ends in:</h3>
+        <div className='name-container'>
+          <h3 className='coming-soon__text'>Early Bird Registration Ends in:</h3>
         
         </div>
         <CountdownTimer  targetDate="2024-02-13T23:59:59" />
+        <div>
+        <div className='name-container'>
+        <h3 className='coming-soon__text-1'>₹</h3>
+          <h3 className='coming-soon__text-1 strikethrough'>70/-</h3>
+        <h3 className='coming-soon__text-2'>50/-</h3>
+        </div>
+        </div>
+        
         <Button className='coming-soon__reg-button' href='/registration' variant="primary">Register Now</Button>
         <span className='coming-soon__icon-container'>
           <a href="tel:+917568379160" >

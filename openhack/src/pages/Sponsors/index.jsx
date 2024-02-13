@@ -55,7 +55,7 @@ export const Sponsors = () => {
         </div>
         <div className='sponsors-card associate_sponsor-2'>
           <div className='sponsors-card-content'>
-          <h1 className='sponsors-card-title'>Associate Sponsor</h1>
+          <h1 className='sponsors-card-title'>Affiliate Sponsor</h1>
           <p className="sponsors-card-description">Versatile is not just an IT solution provider, it is professional managed company with qualified
 team. Versatile strength is its team who is capable to face any type of challenges.</p>
           <span className='sponsors__icon-container'>

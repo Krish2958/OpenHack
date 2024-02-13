@@ -53,12 +53,18 @@ export const Home = () => {
                         <img className='associate' src={Assets.Take2Technology} alt='Take 2 Technology' />
                     </a>
                   
-                    <a className='sp-c' href="https://www.versatileitsolution.com/" target="_blank" rel="noopener noreferrer">
-                        <img className='associate' src={Assets.VersatilePrime} alt='Versatile Prime' />
-                    </a>
                                  </div>
               </div>
-              <div className='sponsor-ally'>
+              <div className='sponsor-associate'>
+              <h3 className='associate-heading'>Affiliate Partner</h3>
+                <div className='ass'>
+                  
+                <a className='sp-c' href="https://www.versatileitsolution.com/" target="_blank" rel="noopener noreferrer">
+                        <img className='associate' src={Assets.VersatilePrime} alt='Versatile Prime' />
+                  </a>
+                                 </div>
+              </div>
+                            <div className='sponsor-ally'>
               <h3 className='digital-heading'>Digital Ally</h3>
               <a  href="https://trickylab.com/" className='sponsor-title' target="_blank" rel="noopener noreferrer">
                 <img className='digital-ally' src={Assets.TrickyLab} alt='Tricky' />

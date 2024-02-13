@@ -111,7 +111,7 @@ export const Home = () => {
           <div className='about-rules-content'>
           <h1 className='about-rules-title'>Explore The Rulebook!</h1>
           <p className="about-rules-description">Ready to dive into the challenge? Explore the guidelines and regulations in our comprehensive rulebook.</p>
-          <Button className='about-rules-reg-button' href={Assets.OpenHackRuleBook} variant="primary">Download</Button>
+          <Button className='about-rules-reg-button' href={Assets.OpenHackRuleBook} target='_blank' variant="primary">Download</Button>
           </div>
           <img className='about-rules-bg-img' src={Assets.Rules} alt="about" />        
         </div>

@@ -10,7 +10,7 @@ import Laptop from './Laptop_BG.webp';
 import Prize from './Prize.png';
 import VersatilePrime from './VersatilePrime.png';
 import TrickyLab from './TrickyLab.png';
-import ContactPeople from './ContactPeople.svg';
+import ContactPeople from './ContactPeople.png';
 import KrishMaheshwari from './Krish_Maheshwari.png';
 import LakshayAgarwal from './Lakshay_Agarwal.png';
 import RishiRajOjha from './Rishi_Raj_Ojha.png';

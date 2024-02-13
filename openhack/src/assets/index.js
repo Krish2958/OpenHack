@@ -17,6 +17,8 @@ import RishiRajOjha from './Rishi_Raj_Ojha.png';
 import TusharDaga from './Tushar_Daga.png';
 import OpenHackRuleBook from './OpenHack_Rulebook.pdf';
 import Rules from './Rules.png';
+import GitHub from './Github.jpg';
+import Vercel from './Vercel.jpg';
 
 export const Assets = {
     OpenHackWebM: OpenHackWebM,
@@ -38,4 +40,6 @@ export const Assets = {
     RishiRajOjha: RishiRajOjha,
     OpenHackRuleBook: OpenHackRuleBook,
     Rules: Rules,
+    GitHub: GitHub,
+    Vercel: Vercel,
 }

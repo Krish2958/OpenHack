@@ -124,6 +124,19 @@ Hackathons, project marathons, and interesting events are among the objectives o
           <img className='about-club-bg-img' src={Assets.TechBizz} alt="about" />        
         </div>
         <Team />
+        <div className='dev-partners'>
+              <h3 className='associate-heading'>Development Partners</h3>
+                <div className='dev'>
+                  
+                    <a className='sp-c' href="https://www.vercel.com/" target="_blank" rel="noopener noreferrer">
+                        <img className='development-partner' src={Assets.Vercel} alt='Vercel' />
+                    </a>
+                    <a className='sp-c' href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+                        <img className='development-partner' src={Assets.GitHub} alt='GitHub' />
+                    </a>
+                  
+                                 </div>
+              </div>
     </div>
   );
 };

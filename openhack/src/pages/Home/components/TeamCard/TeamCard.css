@@ -31,7 +31,7 @@
 .team-container {
     position: relative;
     border-radius: 2rem;
-    border: 3px solid  #8CE8E5;
+    border: 3px solid  #6F61C0;
     overflow: hidden;
     width: 82rem; 
     height: auto;
@@ -43,7 +43,7 @@
   
     @media screen and (max-width: 768px) {
       width: 23rem;
-      border: 1px solid  #8CE8E5;
+      border: 1px solid  #6F61C0;
     }
 }
 .team-title {
@@ -141,13 +141,6 @@ ol, ul {
     font-family: Comfortaa;
     color: #000000;
     margin-top: 1rem;
-    @media screen and (max-width: 768px) {
-        font-size: 0.7rem;
-        letter-spacing: 1px;
-        padding: 0 1px;
-        text-align: center;
-        margin-top: 12px;
-        }
 }
 
 .card .card-content h5 {
@@ -202,6 +195,16 @@ ol, ul {
 .card .card-content .social-icons li a span {
     font-size: 1.3rem;
     list-style: none;
+}
+
+@media screen and (max-width: 768px){
+    .card .card-content h6 {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        padding: 0 1px;
+        text-align: center;
+        margin-top: 12px;
+        }
 }
 
 @media(max-width: 991.5px) {

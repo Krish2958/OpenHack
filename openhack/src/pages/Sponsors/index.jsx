@@ -10,6 +10,7 @@ export const Sponsors = () => {
   return (
   <div className='sponsors-page'>
     <h1 className='sponsors-title'>Sponsors</h1>
+    <div className='sponsors-container'>
     <div className='sponsors-card title_sponsor'>
           <div className='sponsors-card-content '>
           <h1 className='sponsors-card-title'>Title Sponsor</h1>
@@ -36,7 +37,7 @@ export const Sponsors = () => {
           <img className='sponsors-card-bg-img' src={Assets.Take2Technology} alt="sponsors" />       
           <div className='sponsors-card-content'>
           <h1 className='sponsors-card-title'>Associate Sponsor</h1>
-          <p className="sponsors-card-description">Take2 Technologies is one of the fastest growing web and mobile application development companies that is based in India. They offer a comprehensive suite of services</p>
+          <p className="sponsors-card-description">Take2 Technologies, based in Bhilwara, is a rapidly growing tech agency dedicated to crafting custom web, mobile application development, and cloud solutions.</p>
           <span className='sponsors__icon-container'>
           <a href="https://www.facebook.com/taketwotech" target="_blank" rel="noopener noreferrer">
             <Icon.Facebook className='sponsors__icon' color='#8CE8E5' />
@@ -55,7 +56,7 @@ export const Sponsors = () => {
         </div>
         <div className='sponsors-card associate_sponsor-2'>
           <div className='sponsors-card-content'>
-          <h1 className='sponsors-card-title'>Affiliate Sponsor</h1>
+          <h1 className='sponsors-card-title'>Affiliate Partner</h1>
           <p className="sponsors-card-description">Versatile is not just an IT solution provider, it is professional managed company with qualified
 team. Versatile strength is its team who is capable to face any type of challenges.</p>
           <span className='sponsors__icon-container'>
@@ -97,7 +98,7 @@ team. Versatile strength is its team who is capable to face any type of challeng
         </span>
           </div> 
         </div>
-
+        </div>
   </div>
   );
 }

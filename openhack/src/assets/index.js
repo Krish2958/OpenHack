@@ -16,6 +16,7 @@ import LakshayAgarwal from './Lakshay_Agarwal.png';
 import RishiRajOjha from './Rishi_Raj_Ojha.png';
 import TusharDaga from './Tushar_Daga.png';
 import OpenHackRuleBook from './OpenHack_Rulebook.pdf';
+import Rules from './Rules.png';
 
 export const Assets = {
     OpenHackWebM: OpenHackWebM,
@@ -36,4 +37,5 @@ export const Assets = {
     LakshayAgarwal: LakshayAgarwal,
     RishiRajOjha: RishiRajOjha,
     OpenHackRuleBook: OpenHackRuleBook,
+    Rules: Rules,
 }

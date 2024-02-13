@@ -98,6 +98,14 @@ export const Home = () => {
           </div>
           <img className='about-prize-bg-img' src={Assets.Prize} alt="about" />        
         </div>
+        <div className='about-rules'>
+          <div className='about-rules-content'>
+          <h1 className='about-rules-title'>Explore The Rulebook!</h1>
+          <p className="about-rules-description">Ready to dive into the challenge? Explore the guidelines and regulations in our comprehensive rulebook.</p>
+          <Button className='about-rules-reg-button' href={Assets.OpenHackRuleBook} variant="primary">Download</Button>
+          </div>
+          <img className='about-rules-bg-img' src={Assets.Rules} alt="about" />        
+        </div>
         <div className='about-club'>
           <div className='about-club-content'>
           <h1 className='about-club-title'>About Tech Bizz Club</h1>

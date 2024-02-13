@@ -377,7 +377,7 @@
     margin-top: 0;
     font-size: 0.9rem;
     left: 2rem;
-    width: 20rem;
+    width: 19rem;
   }
 
 }
@@ -406,7 +406,7 @@
   }
 }
 
-.about-club {
+.about-rules {
   display: grid;
   gap: 2rem;
   grid-template-columns: 50rem 50rem;
@@ -420,6 +420,87 @@
   @media screen and (max-width: 768px) {
     width: 23rem;
     border: 1px solid  #6F61C0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+.about-rules-content {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 4rem;
+  }
+}
+
+.about-rules-title {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-rules-bg-img {
+  width: 27.125rem;
+  height: 29.125rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+.about-rules-description {
+  width: 15rem;
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  width: 35rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 6rem;
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 19rem;
+  }
+}
+
+.about-rules-reg-button {
+  position: relative;
+  left: 6rem;
+  @media screen and (max-width: 768px) {
+    left: 2rem;
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+}
+
+.about-club {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 50rem 50rem;
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #8CE8E5;
+  overflow: hidden;
+  width: 82rem; 
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 23rem;
+    border: 1px solid  #8CE8E5;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -497,6 +578,7 @@
     width: 30%;
   }
 }
+
 .title-sponsor {
   width: 80%;
   @media screen and (max-width: 768px) {
@@ -578,5 +660,13 @@
       margin-top: 30px;
       font-size: 1.6rem;
       left: 2rem;
+  }
+
+  .about-rules-title {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    left: 2rem;
+    width: 12rem;
+    line-height: 3rem;
   }
 }

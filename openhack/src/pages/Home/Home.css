@@ -659,6 +659,39 @@
   }
 }
 
+.development-partner {
+  width: 254px;
+  height: 80%;
+  border-radius: 0.6rem;
+  
+}
+
+.dev-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: Montserrat;
+  color: white;
+}
+
+.dev {
+  display: inline-flex;
+  gap: 5rem;
+  width: 100%;
+  margin-left: 3rem;
+
+  @media screen and (max-width: 768px) {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
 @media screen and (max-width:768px) {
   .about-card-title, .about-theme-title, .about-club-title, .about-prize-title {
       margin-top: 30px;
@@ -678,5 +711,16 @@
     left: 2rem;
     width: 12rem;
     line-height: 3rem;
+  }
+
+  .development-partner {
+    width: 127px;
+    height: 40%;  
+  }
+
+  .dev-partners {
+    display: inline-flex;
+    justify-content: center;
+    gap: 1rem;
   }
 }

@@ -26,13 +26,13 @@ export const Home = () => {
         </div>
         <CountdownTimer  targetDate="2024-02-13T23:59:59" />
         <div>
-        <div className='name-container'>
+        <div className='name-container rate'>
         <h3 className='coming-soon__text-1'>₹</h3>
           <h3 className='coming-soon__text-1 strikethrough'>70/-</h3>
         <h3 className='coming-soon__text-2'>50/-</h3>
         </div>
         </div>
-        
+
         <Button className='coming-soon__reg-button' href='/registration' variant="primary">Register Now</Button>
         <span className='coming-soon__icon-container'>
           <a href="tel:+917568379160" >

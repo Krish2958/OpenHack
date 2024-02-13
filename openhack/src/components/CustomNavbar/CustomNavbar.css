@@ -97,3 +97,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .custom-navbar {
+    justify-content: flex-start;
+  }
+}

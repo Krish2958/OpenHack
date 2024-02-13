@@ -13,15 +13,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    @media screen and (max-width:768px ){
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center;
-      margin: 0;
-      width: 100%;
-    }
-
   }
 
 .nav-content {
@@ -100,6 +91,10 @@
 
 @media screen and (max-width: 768px) {
   .custom-navbar {
+    flex-direction: row;
     justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    width: 100%;
   }
 }

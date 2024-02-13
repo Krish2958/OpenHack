@@ -21,15 +21,14 @@ export const Home = () => {
         <h3 className='coming-soon__text-2'>Kar</h3>
         </span>
         <div className='name-container'>
-          <h3 className='coming-soon__text'>Early Bird Registration Ends in:</h3>
+          <h3 className='coming-soon__text'>Registration Ends in:</h3>
         
         </div>
-        <CountdownTimer  targetDate="2024-02-13T23:59:59" />
+        <CountdownTimer  targetDate="2024-02-20T23:59:59" />
         <div>
         <div className='name-container rate'>
         <h3 className='coming-soon__text-1'>₹</h3>
-          <h3 className='coming-soon__text-1 strikethrough'>70/-</h3>
-        <h3 className='coming-soon__text-2'>50/-</h3>
+          <h3 className='coming-soon__text-1'>70 per member</h3>
         </div>
         </div>
 

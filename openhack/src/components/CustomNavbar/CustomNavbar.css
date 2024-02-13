@@ -97,4 +97,13 @@
     margin: 0;
     width: 100%;
   }
+
+.navbar-container {
+    display: flex;
+    flex-direction: row-reverse;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      width: 100%; 
+  }
 }

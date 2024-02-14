@@ -6,8 +6,10 @@ import { Home, Schedule, ContactUs, FAQ, Sponsors, Registration, Rules } from '.
 import { CustomNavbar } from './components/CustomNavbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Footer } from './components/Footer';
+import { inject } from '@vercel/analytics';
 
 const App = () => {
+  inject();
   return (
       <>
         <Router>
@@ -23,11 +25,9 @@ const App = () => {
           <Route path="/registration" element={<Registration />} />
           </Routes>
           </Container>
-          
         </Router>
         <Footer />
-
-        </>
+      </>
   );
 };
 

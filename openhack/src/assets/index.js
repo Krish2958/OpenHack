@@ -15,6 +15,7 @@ import KrishMaheshwari from './Krish_Maheshwari.png';
 import LakshayAgarwal from './Lakshay_Agarwal.png';
 import RishiRajOjha from './Rishi_Raj_Ojha.png';
 import TusharDaga from './Tushar_Daga.png';
+import AjayTamboli from './Ajay_Tamboli.png';
 import OpenHackRuleBook from './OpenHack_Rulebook.pdf';
 import Rules from './Rules.png';
 import GitHub from './Github.jpg';
@@ -38,6 +39,7 @@ export const Assets = {
     KrishMaheshwari: KrishMaheshwari,
     LakshayAgarwal: LakshayAgarwal,
     RishiRajOjha: RishiRajOjha,
+    AjayTamboli: AjayTamboli,
     OpenHackRuleBook: OpenHackRuleBook,
     Rules: Rules,
     GitHub: GitHub,

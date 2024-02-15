@@ -1,9 +1,9 @@
 import React from 'react';
-import { Envelope, Instagram, Linkedin, Github } from 'react-bootstrap-icons';
+import { Envelope, Instagram, Linkedin, Github, Reddit } from 'react-bootstrap-icons';
 import './TeamCard.css';
 import { Assets } from '../../../../assets';
 
-const TeamMemberCard = ({ name, batch, role, imageUrl, email, linkedin, instagram, github }) => {
+const TeamMemberCard = ({ name, batch, role, imageUrl, email, linkedin, instagram, github, reddit }) => {
   return (
     <div className="card p-0">
       <div className="card-image">
@@ -42,6 +42,13 @@ const TeamMemberCard = ({ name, batch, role, imageUrl, email, linkedin, instagra
               </a>
             </li>
           )}
+          {reddit && (
+            <li style={{ '--i': 2 }}>
+              <a href={reddit} target="_blank" rel="noopener noreferrer">
+                <Reddit className="social-icon" />
+              </a>
+            </li>
+          )}
         </ul>
       </div>
     </div>
@@ -54,8 +61,9 @@ const Team = () => {
     { name: 'Lakshay Agarwal',batch: 'III, ME', role: 'Desgin Operations', imageUrl: Assets.LakshayAgarwal, email: 'lakshayagarwal490@gmail.com', linkedin: ' https://www.linkedin.com/in/lakshayagarwal490/', instagram: ' https://www.instagram.com/here.lakshay/'},
     { name: 'Rishi Raj Ojha',batch: 'III, ME', role: 'Managment', imageUrl: Assets.RishiRajOjha, email: 'rishirajojha42@gmail.com', linkedin: ' https://www.linkedin.com/in/rishi-raj-ojha-428b16271/', instagram: 'https://www.instagram.com/orishiraj_27/' },
     { name: 'Tushar Daga',batch: 'II, CSE-IoT', role: 'Development', imageUrl: Assets.TusharDaga, email: 'tushardaga899@gmail.com', linkedin: ' https://www.linkedin.com/in/tushar-daga-2068a9237', github: 'https://github.com/titaniumtushar' },
+    { name: 'Ajay Tamboli',batch: 'I, TC', role: 'Design', imageUrl: Assets.AjayTamboli, email: 'tamboliajay77@gmail.com', linkedin: 'https://www.linkedin.com/in/ajay-tamboli ', x: 'https://twitter.com/AjayTamboli13', reddit:'https://www.reddit.com/u/Ajay1210x/s/zRx4sRdUup' },
   ];
-
+    
   return (
     <div className="team-container">
       <h1 className='team-title'>Organizing Team</h1>

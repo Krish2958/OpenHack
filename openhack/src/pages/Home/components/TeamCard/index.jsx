@@ -60,7 +60,6 @@ const Team = () => {
     { name: 'Krish Maheshwari',batch: 'III, CSE-IoT', role: 'Technical Lead', imageUrl: Assets.KrishMaheshwari, email: 'krishm.km17@gmail.com', linkedin: 'https://www.linkedin.com/in/krishm2958/', instagram: 'https://www.instagram.com/krishm.km18/', github: 'https://github.com/krish2958' },
     { name: 'Lakshay Agarwal',batch: 'III, ME', role: 'Desgin Operations', imageUrl: Assets.LakshayAgarwal, email: 'lakshayagarwal490@gmail.com', linkedin: ' https://www.linkedin.com/in/lakshayagarwal490/', instagram: ' https://www.instagram.com/here.lakshay/'},
     { name: 'Rishi Raj Ojha',batch: 'III, ME', role: 'Managment', imageUrl: Assets.RishiRajOjha, email: 'rishirajojha42@gmail.com', linkedin: ' https://www.linkedin.com/in/rishi-raj-ojha-428b16271/', instagram: 'https://www.instagram.com/orishiraj_27/' },
-    { name: 'Tushar Daga',batch: 'II, CSE-IoT', role: 'Technical Help', imageUrl: Assets.TusharDaga, email: 'tushardaga899@gmail.com', linkedin: ' https://www.linkedin.com/in/tushar-daga-2068a9237', github: 'https://github.com/titaniumtushar' },
     { name: 'Ajay Tamboli',batch: 'I, TC', role: 'Design', imageUrl: Assets.AjayTamboli, email: 'tamboliajay77@gmail.com', linkedin: 'https://www.linkedin.com/in/ajay-tamboli ', x: 'https://twitter.com/AjayTamboli13', reddit:'https://www.reddit.com/u/Ajay1210x/s/zRx4sRdUup' },
   ];
     

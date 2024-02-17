@@ -1,0 +1,37 @@
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .timer {
+    display: flex;
+  }
+  
+  .time-block {
+    margin: 0 10px;
+    font-size: 24px;
+    font-family: Comfortaa;
+    color: #F2F2F2;
+    text-align: center;
+    animation: fade-in 1s ease forwards;
+    font-weight: bold;
+    @media  screen and (max-width: 768px) {
+      font-size: 18px;
+    }
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+.timer-heading {
+  color: grey;
+}

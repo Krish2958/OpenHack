@@ -1,88 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #000000;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  scroll-snap-type: y mandatory;
-}
-
-.coming-soon {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-
-  @media screen and (max-width:768px) {
-    gap: 0.5rem;
-  }
-}
-
-.name-container {
-  display: inline-flex;
-  gap: 0.5rem;
-  @media screen and (max-width:768px) {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-.coming-soon__brand-logo {
   width: 100%;
-  height: auto;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
 
-  @media screen and (max-width:768px) {
-    width: 90%;
-  }
 }
 
-.coming-soon__year {
-  color: #F2F2F2;
-  font-family: montserrat;
-  margin-bottom: 1rem;
-
-  @media screen and (max-width:768px) {
-    font-size: 28px;
-  }
+.container {
+  margin-bottom: 4rem;
 }
 
-.coming-soon__icon-container {
-  display: inline-flex;
-  gap: 2rem;
-  @media screen and (max-width:768px) {
-    gap: 1rem;
-  }
+body::-webkit-scrollbar {
+  display: none;
 }
 
-.coming-soon__icon {
-  width: 1.5rem;
-  height: 1.5rem;
-  @media screen and (max-width:768px) {
-    width: 1.2rem;
-    height: 1.2rem;
-  }
+.container::-webkit-scrollbar {
+  display: none;
 }
 
-.coming-soon__text {
-  color: #8CE8E5;
+.btn {
+  --bs-btn-border-color: #8ce8e5;
+  --bs-btn-hover-border-color: #8ce8e5;
+  --bs-btn-active-bg: #000000;
   font-family: Comfortaa;
+  font-size: 20px;
+  font-size: 1.4rem;
+  background-color: #8ce8e5;
+  color: #000000;
 
-  @media screen and (max-width:768px) {
-    font-size: 20px;
+  @media screen and (max-width:768px ){
+    text-align: center;
+    font-size: 0.9rem;
+    --bs-btn-active-bg: #000000;
   }
 }
-.coming-soon__text-1 {
-  color: #6F61C0;
-  font-family: Comfortaa;
 
-  @media screen and (max-width:768px) {
-    font-size: 20px;
+.btn:hover {
+    font-size: 1.4rem;
+    background-color: #000000;
+    @media screen and (max-width: 768px) {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  
+}
+.btn.active {
+  font-size: 1.4rem;
+  background-color: #79c5c3;
+  color: #000000;
+  border-color: #000000;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+    text-align: center;
   }
 }
 
+.btn.disabled {
+  font-size: 1.4rem;
+  background-color: #8ce8e5;
+  color: #000000;
+  border-color: #000000;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
 
 @font-face {
   font-family: 'Montserrat';

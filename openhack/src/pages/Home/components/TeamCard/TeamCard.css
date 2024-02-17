@@ -1,0 +1,218 @@
+
+.container .row .col-lg-4 {
+    display: grid;
+}
+
+.team-row {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 1rem;
+    position: relative;
+    left: 3.2rem;
+    margin-bottom: 4rem;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 150px 150px;
+        left: 2rem;
+        gap: 1rem;
+      }
+}
+
+.social-icon {
+    color: #000000;
+    width: 1.8rem;
+    height: 1.8rem;
+    @media screen and (max-width: 768px) {
+        width: 0.9rem;
+        height: 0.9rem;
+        }
+}
+
+.team-container {
+    position: relative;
+    border-radius: 2rem;
+    border: 3px solid  #6F61C0;
+    overflow: hidden;
+    width: 82rem; 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+  
+    @media screen and (max-width: 768px) {
+      width: 23rem;
+      border: 1px solid  #6F61C0;
+    }
+}
+.team-title {
+    position: relative;
+    font-family: Into The Void;
+    font-size: 3rem;
+    margin: 4rem 0;
+    color: #F2F2F2;
+    left: 3.2rem;
+    @media screen and (max-width: 768px) {
+        left: 2rem;
+        font-size: 1.6rem;
+      }
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.card {
+    position: relative;
+    padding: 0;
+    margin: 0 !important;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 266px;
+    max-height: 387px;
+    min-width: 243px;
+    min-height: 324px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    @media screen and (max-width: 768px) {
+        max-width: 146px;
+    max-height: 194px;
+    min-width: 127px;
+    min-height: 167px;
+      }
+}
+.card-image {
+    width: 100%;
+    max-height: 345px;
+    @media screen and (max-width: 768px) {
+        max-height: 170px;
+        }
+}
+
+.card-image img {
+    max-width: 261px;
+    max-height: 387px;
+    object-fit: cover;
+
+    @media screen and (max-width: 768px) {
+    max-width: 146px;
+    max-height: 194px;
+    }
+    
+}
+ .card-content {
+    position: absolute;
+    bottom: -180px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    min-height: 140px;
+    width: 100%;
+    transition: bottom .4s ease-in;
+    box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+.card:hover .card-content {
+    bottom: 0px;
+}
+
+.card:hover .card-content {
+    bottom: 0px;
+}
+.card:hover .card-content h4,
+.card:hover .card-content h5 {
+    transform: translateY(10px);
+    opacity: 1;
+}
+
+
+.card .card-content h6 {
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: Comfortaa;
+    color: #000000;
+    margin-top: 1rem;
+}
+
+.card .card-content h5 {
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-family: Comfortaa;
+    color: #000000;
+    @media screen and (max-width: 768px) {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        padding: 0 1px;
+        text-align: center;
+        }
+}
+
+.card .card-content h4 {
+    transition: 0.5s;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-family: Into The Void;
+    color: #000000;
+    @media screen and (max-width: 768px) {
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        padding: 0 1px;
+        text-align: center;
+        }
+}
+
+
+.card .card-content .social-icons li {
+    margin: 10px;
+    transition: 0.5s;
+    transition-delay: calc(0.15s * var(--i));
+    transform: translateY(50px);
+    list-style: none;
+}
+
+
+.card:hover .card-content .social-icons li {
+    transform: translateY(20px);
+    list-style: none;
+}
+
+.card .card-content .social-icons li a {
+    color: #fff;
+    list-style: none;
+}
+
+.card .card-content .social-icons li a span {
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+@media screen and (max-width: 768px){
+    .card .card-content h6 {
+        font-size: 0.7rem;
+        letter-spacing: 1px;
+        padding: 0 1px;
+        text-align: center;
+        margin-top: 12px;
+        }
+}
+
+@media(max-width: 991.5px) {
+    .container {
+        margin-top: 20px;
+    }
+
+    .container .row .col-lg-4 {
+        margin: 20px 0px;
+    }
+}

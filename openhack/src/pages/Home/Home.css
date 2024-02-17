@@ -1,0 +1,726 @@
+.sponsors  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 21rem;
+  scroll-snap-type: y mandatory;
+
+  @media screen and (max-width: 768px) {
+    gap: 4rem;
+  }
+}
+
+.coming-soon {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  @media screen and (max-width:768px) {
+    gap: 1rem;
+  }
+}
+
+.sp-c {
+  display: flex;
+  align-items: center;
+  @media screen and (max-width:768px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.name-container {
+  display: inline-flex;
+  gap: 0.5rem;
+  @media screen and (max-width:768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.coming-soon__brand-logo {
+  width: 150%;
+  height: auto;
+
+  @media screen and (max-width:768px) {
+    width: 90%;
+  }
+}
+
+.coming-soon__year {
+  color: #F2F2F2;
+  font-family: montserrat;
+  margin-bottom: 1rem;
+
+  @media screen and (max-width:768px) {
+    font-size: 28px;
+  }
+}
+
+.coming-soon__icon-container {
+  display: inline-flex;
+  gap: 2rem;
+  @media screen and (max-width:768px) {
+    gap: 1rem;
+  }
+}
+
+.coming-soon__icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  @media screen and (max-width:768px) {
+    width: 1.2rem;
+    height: 1.2rem;
+  }
+}
+
+.coming-soon__text {
+  color: #F2F2F2;
+  font-family: Comfortaa;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+
+.coming-soon__text-sep {
+  color: #000000;
+  display: inline-flex;
+  font-family: Comfortaa;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+
+.coming-soon__text-1 {
+  color: #8CE8E5;
+  font-family: Comfortaa;
+  font-size: 2rem;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+.coming-soon__text-2 {
+  color: #6F61C0;
+  font-family: Comfortaa;
+  font-size: 2rem;
+
+  @media screen and (max-width:768px) {
+    font-size: 20px;
+  }
+}
+
+
+
+.coming-soon__reg-button {
+  font-size: 1.4rem;
+  background-color: #8ce8e5;
+  color: #000000;
+
+  @media screen and (max-width:768px ){
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+
+    
+  }
+}
+
+.associate {
+  width: 478px;
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 40%;
+    height: auto;
+  }
+}
+
+.registrations-open-soon {
+  font-family: Comfortaa;
+  text-align: center;
+  color: #6F61C0;
+}
+
+.about-card {
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid  #8CE8E5;
+  overflow: hidden;
+  width: 82rem; 
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 23rem;
+    border: 1px solid  #8CE8E5;
+  }
+  
+}
+
+.about-card-content {
+  margin-top: 13rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 7rem;
+  }
+}
+
+.about-card-title {
+  position: relative;
+  left: 35rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-card-description {
+  color: #F2F2F2;
+  font-size: 1.6rem;
+  margin: 20px 0;
+  width: 36rem;
+  height: 17.46667rem;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 35rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 20rem;
+  }
+}
+
+.name-container .strikethrough {
+  text-decoration: line-through;
+}
+
+.about-card-description .coming-soon__text-1 {
+  font-size: 1.6rem;
+  color: #8CE8E5;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+}
+
+.about-card-description .coming-soon__text-2 {
+  font-size: 1.6rem;
+  color: #6F61C0;
+  @media screen and (max-width: 768px) {
+    font-size: 0.9rem;
+  }
+}
+
+.about-card-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about-theme {
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #6F61C0;
+  overflow: hidden;
+  width: 82rem; 
+  height: 37rem;
+
+  @media screen and (max-width: 768px) {
+    width: 23rem;
+    border: 1px solid  #6F61C0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+.about-theme-content {
+  margin-top: 10rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 4rem;
+  }
+}
+
+.about-theme-title {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 10px;
+  font-family: Into The Void;
+
+}
+
+.about-theme-title-1 {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 4.7rem;
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: Montserrat;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    left: 2rem;
+  }
+}
+
+.about-theme-description {
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  width: 74rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 6rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 3rem;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 20rem;
+  }
+}
+
+.about-theme-bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.about-prize {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 50rem 50rem;
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #8CE8E5;
+  overflow: hidden;
+  width: 82rem; 
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 23rem;
+    border: 1px solid  #8CE8E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+.about-prize-content {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 4rem;
+  }
+}
+
+.about-prize-title {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-prize-title-1 {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 5.625rem;
+  margin-top: 20px;
+  font-weight: 700;
+  font-family: Into The Void;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    left: 2rem;
+  }
+}
+
+.about-prize-description {
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  width: 85rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 6rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 19rem;
+  }
+
+}
+
+.about-prize-bg-img {
+  width: 27.125rem;
+  height: 27.125rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+.about-prize-reg-button {
+  position: relative;
+  left: 6rem;
+  @media screen and (max-width: 768px) {
+    left: 2rem;
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+}
+
+.about-rules {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 50rem 50rem;
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #6F61C0;
+  overflow: hidden;
+  width: 82rem; 
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 23rem;
+    border: 1px solid  #6F61C0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3rem;
+  }
+}
+
+.about-rules-content {
+  margin-top: 8rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 4rem;
+  }
+}
+
+.about-rules-title {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 20px;
+  font-family: Into The Void;
+}
+
+.about-rules-bg-img {
+  width: 27.125rem;
+  height: 29.125rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    width: 75%;
+    height: 50%;
+  }
+}
+
+.about-rules-description {
+  width: 15rem;
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  width: 35rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 6rem;
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 19rem;
+  }
+}
+
+.about-rules-reg-button {
+  position: relative;
+  left: 6rem;
+  @media screen and (max-width: 768px) {
+    left: 2rem;
+    margin-left: 0;
+    font-size: 0.9rem;
+  }
+}
+
+.about-club {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 50rem 50rem;
+  position: relative;
+  border-radius: 2rem;
+  border: 3px solid #8CE8E5;
+  overflow: hidden;
+  width: 82rem; 
+  height: auto;
+
+  @media screen and (max-width: 768px) {
+    width: 23rem;
+    border: 1px solid  #8CE8E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3rem;
+  }
+}
+
+.about-club-content {
+  margin-top: 4rem;
+}
+
+.about-club-title {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 3.2rem;
+  margin-top: 4rem;
+  font-family: Into The Void;
+}
+
+.about-club-title-1 {
+  position: relative;
+  left: 6rem;
+  color: #F2F2F2;
+  font-size: 5.625rem;
+  margin-top: 4rem;
+  font-weight: 700;
+  font-family: Into The Void;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    font-size: 1.8rem;
+    left: 2rem;
+  }
+}
+
+.about-club-description {
+  color: #F2F2F2;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+  width: 43rem;
+  height: auto;
+  flex-shrink: 0;
+  font-family: Comfortaa;
+  position: relative;
+  left: 6rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    left: 2rem;
+    width: 20rem;
+  }
+}
+
+.about-club-bg-img {
+  width: 27.125rem;
+  height: 27.125rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 0;
+    width: 75%;
+    height: 50%;
+    margin-left: 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+}
+
+.digital-ally {
+  width: 30%;
+  @media screen and (max-width: 768px) {
+    width: 30%;
+  }
+}
+
+.title-sponsor {
+  width: 80%;
+  @media screen and (max-width: 768px) {
+    width: 60%;
+  }
+ 
+}
+
+.ass {
+  display: inline-flex;
+  gap: 5rem;
+  width: 100%;
+  margin-left: 3rem;
+
+  @media screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 0;
+  }
+}
+
+.title-heading {
+  font-family: Montserrat;
+  color: white;
+  @media screen and (max-width: 768px){
+    font-size: 1rem;
+  }
+}
+
+.associate-heading {
+  @media screen and (max-width: 768px){
+    font-size: 0.9rem;
+  }
+}
+
+.digital-heading {
+  @media screen and (max-width: 768px){
+    font-size: 0.7rem;
+  }
+}
+
+.sponsor-title, .sponsor-associate, .sponsor-ally {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: Montserrat;
+  color: white;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+  margin: 10rem;
+  @media screen and (max-width: 768px) {
+    gap: 5rem;
+    margin: 0;
+  }
+}
+
+.brand-logo {
+  width: 100%;
+  height: auto;
+
+  @media screen and (max-width:768px) {
+    width: 90%;
+  }
+}
+
+.development-partner {
+  width: 254px;
+  height: 80%;
+  border-radius: 0.6rem;
+  
+}
+
+.dev-partners {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  font-family: Montserrat;
+  color: white;
+}
+
+.dev {
+  display: inline-flex;
+  gap: 5rem;
+  width: 100%;
+  margin-left: 3rem;
+
+  @media screen and (max-width: 768px) {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .about-card-title, .about-theme-title, .about-club-title, .about-prize-title {
+      margin-top: 30px;
+      font-size: 1.6rem;
+      left: 2rem;
+  }
+
+ .rate {
+    display: inline-flex;
+    gap: 0.5rem;
+    flex-direction: row;
+  }
+
+  .about-rules-title {
+    margin-top: 30px;
+    font-size: 1.6rem;
+    left: 2rem;
+    width: 12rem;
+    line-height: 3rem;
+  }
+
+  .development-partner {
+    width: 127px;
+    height: 40%;  
+  }
+
+  .dev-partners {
+    display: inline-flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+}

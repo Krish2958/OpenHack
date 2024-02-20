@@ -32,6 +32,7 @@
     justify-content: center;
   }
 }
+
 .name-container {
   display: inline-flex;
   gap: 0.5rem;
@@ -407,6 +408,36 @@
     left: 2rem;
     margin-left: 0;
     font-size: 0.9rem;
+  }
+}
+
+.date__text-1 {
+  color: #8CE8E5;
+  font-family: Comfortaa;
+  font-size: 1.3rem;
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+}
+.date__text-2 {
+  color: #6F61C0;
+  font-family: Comfortaa;
+  font-size: 1.3rem;
+  @media screen and (max-width: 768px) {
+    font-size: 0.8rem;
+  }
+}
+
+.date {
+  display: inline-flex;
+  gap: 0.5rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 

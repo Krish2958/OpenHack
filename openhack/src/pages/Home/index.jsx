@@ -24,7 +24,11 @@ export const Home = () => {
           <h3 className='coming-soon__text'>Registration Ends in:</h3>
         
         </div>
-        <CountdownTimer  targetDate="2024-02-20T23:59:59" />
+        <CountdownTimer  targetDate="2024-02-22T23:59:59" />
+        <div className='date'>
+        <h3 className='date__text-1' >Last Date of Registration has been extended up to </h3>
+        <h3 className='date__text-2 ' >22nd January, 2024</h3>
+        </div>
         <div>
         <div className='name-container rate'>
         <h3 className='coming-soon__text-1'>₹</h3>

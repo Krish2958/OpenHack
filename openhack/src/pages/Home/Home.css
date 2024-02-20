@@ -415,17 +415,11 @@
   color: #8CE8E5;
   font-family: Comfortaa;
   font-size: 1.3rem;
-  @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
-  }
 }
 .date__text-2 {
   color: #6F61C0;
   font-family: Comfortaa;
   font-size: 1.3rem;
-  @media screen and (max-width: 768px) {
-    font-size: 0.8rem;
-  }
 }
 
 .date {
@@ -730,6 +724,9 @@
       left: 2rem;
   }
 
+  .date__text-1, .date__text-2 {
+    font-size: 0.8rem;
+  }
  .rate {
     display: inline-flex;
     gap: 0.5rem;

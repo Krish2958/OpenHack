@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { Navbar, Nav, Button } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "./CustomNavbar.css";
 import { Assets } from "../../assets";
@@ -55,9 +55,9 @@ export const CustomNavbar = () => {
           <LinkContainer to="/contact-us" onClick={handleNavCollapse}>
             <Nav.Link>Contact Us</Nav.Link>
           </LinkContainer>
-          <LinkContainer to="/registration" onClick={handleNavCollapse}>
+          {/* <LinkContainer to="/registration" onClick={handleNavCollapse}>
             <Button className='reg-button' variant="primary">Register Now</Button>
-          </LinkContainer>
+          </LinkContainer> */}
         </Nav>
       </Navbar.Collapse>
       </div>

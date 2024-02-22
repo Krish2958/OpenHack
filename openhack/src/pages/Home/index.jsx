@@ -21,22 +21,19 @@ export const Home = () => {
         <h3 className='coming-soon__text-2'>Kar</h3>
         </span>
         <div className='name-container'>
-          <h3 className='coming-soon__text'>Registration Ends in:</h3>
+        <h3 className='coming-soon__text-1' >Registrations have ended, </h3>
+        <h3 className='coming-soon__text-2 ' >OpenHack 2024 kicks off in :</h3>
+        </div>
+        <CountdownTimer  targetDate="2024-02-24T08:29:59" />
         
-        </div>
-        <CountdownTimer  targetDate="2024-02-22T23:59:59" />
-        <div className='date'>
-        <h3 className='date__text-1' >Last Date of Registration has been extended up to </h3>
-        <h3 className='date__text-2 ' >22nd January, 2024</h3>
-        </div>
-        <div>
+        {/* <div>
         <div className='name-container rate'>
         <h3 className='coming-soon__text-1'>₹</h3>
           <h3 className='coming-soon__text-1'>70 per member</h3>
         </div>
-        </div>
+        </div> */}
 
-        <Button className='coming-soon__reg-button' href='/registration' variant="primary">Register Now</Button>
+        {/* <Button className='coming-soon__reg-button' href='/registration' variant="primary">Register Now</Button> */}
         <span className='coming-soon__icon-container'>
           <a href="tel:+917568379160" >
             <Icon.Telephone className='coming-soon__icon' color='#8CE8E5' />
@@ -106,7 +103,7 @@ export const Home = () => {
           <h1 className='about-prize-title'>Prize Pool</h1>
           <h1 className='about-prize-title-1'>Rs.9000/-*</h1>
           <p className="about-prize-description">*Including cash prizes, goodies, bounties and more.</p>
-          <Button className='about-prize-reg-button' href='/registration' variant="primary">Register Now</Button>
+          {/* <Button className='about-prize-reg-button' href='/registration' variant="primary">Register Now</Button> */}
           </div>
           <img className='about-prize-bg-img' src={Assets.Prize} alt="about" />        
         </div>

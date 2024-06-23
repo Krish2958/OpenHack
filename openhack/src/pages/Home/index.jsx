@@ -21,19 +21,10 @@ export const Home = () => {
         <h3 className='coming-soon__text-2'>Kar</h3>
         </span>
         <div className='name-container'>
-        <h3 className='coming-soon__text-1' >Registrations have ended, </h3>
-        <h3 className='coming-soon__text-2 ' >OpenHack 2024 kicks off in :</h3>
+        <h3 className='coming-soon__text-1'>2024 Was Good Fun :)</h3>
+        <h3 className='coming-soon__text-2 ' >OpenHack 2025 kicks off in :</h3>
         </div>
-        <CountdownTimer  targetDate="2024-02-24T08:29:59" />
-        
-        {/* <div>
-        <div className='name-container rate'>
-        <h3 className='coming-soon__text-1'>₹</h3>
-          <h3 className='coming-soon__text-1'>70 per member</h3>
-        </div>
-        </div> */}
-
-        {/* <Button className='coming-soon__reg-button' href='/registration' variant="primary">Register Now</Button> */}
+        <CountdownTimer  targetDate="2025-02-24T08:29:59" />
         <span className='coming-soon__icon-container'>
           <a href="tel:+917568379160" >
             <Icon.Telephone className='coming-soon__icon' color='#8CE8E5' />
